@@ -15,6 +15,9 @@ using Test
         @test file == pseudofile(library, :Si)
         @test file == library[:Si]
 
+        files = pseudofile.(library, [:Si, :Si])
+        @test all(isequal(file), files)
+
         @test_throws KeyError library[:Uun]
         @test_throws KeyError pseudofile(library, :Uun)
         @test_throws KeyError pseudofile(library, :Uun)

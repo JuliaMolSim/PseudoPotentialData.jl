@@ -30,7 +30,7 @@ For a list of available identifiers see
 PseudoLibraries.available_identifiers()
 ```
 More details on the meaning of these keys is given
-in the README of thei
+in the README of the
 [PseudoLibrary](https://github.com/JuliaMolSim/PseudoLibrary/blob/7c4b71a3b9d70a229d757aa6d546ef22b83a85a9/README.md)
 repository.
 
