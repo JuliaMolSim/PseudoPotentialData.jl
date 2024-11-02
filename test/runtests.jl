@@ -3,9 +3,9 @@ using Test
 
 @testset "PseudoLibraries.jl" begin
     @testset "Test one library can be loaded" begin
-        pseudokey = "pd_nc_sr_lda_stringent_0.4.1_upf"
-        library = PseudoLibrary(pseudokey)
-        @test library.pseudokey == pseudokey
+        identifier = "pd_nc_sr_lda_stringent_0.4.1_upf"
+        library = PseudoLibrary(identifier)
+        @test library.identifier == identifier
         @test library.extension == "upf"
         @test library.functional == "lda"
         @test library.version == v"0.4.1"
@@ -21,9 +21,9 @@ using Test
     end
 
     @testset "Test all libraries can be loaded" begin
-        for pseudokey in PseudoLibraries.available_identifiers()
-            library = PseudoLibrary(pseudokey)
-            @test library.pseudokey == pseudokey
+        for identifier in PseudoLibraries.available_identifiers()
+            library = PseudoLibrary(identifier)
+            @test library.identifier == identifier
         end
     end
 end
