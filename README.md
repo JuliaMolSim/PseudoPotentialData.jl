@@ -24,3 +24,16 @@ identifier = "pd_nc_sr_lda_stringent_0.4.1_upf"
 library = PseudoLibrary(identifier)
 filename = pseudofile(library, :Si)
 ```
+
+For a list of available identifiers see
+```julia
+PseudoLibraries.available_identifiers()
+```
+More details on the meaning of these keys is given
+in the README of thei
+[PseudoLibrary](https://github.com/JuliaMolSim/PseudoLibrary/blob/7c4b71a3b9d70a229d757aa6d546ef22b83a85a9/README.md)
+repository.
+
+**Warning:**
+The current identifiers for the pseudopotential families is planned to be overhauled.
+This will be a breaking change, where the minor version of the package will be bumped.
