@@ -10,6 +10,7 @@ LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
 [compat]
+Artifacts = "1"
 Compat = "4.16"
 LazyArtifacts = "1"
 TOML = "1"
