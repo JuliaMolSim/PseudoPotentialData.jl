@@ -1,14 +1,14 @@
-using PseudoLibraries
+using PseudoPotentialData
 using Documenter
 
-DocMeta.setdocmeta!(PseudoLibraries, :DocTestSetup, :(using PseudoLibraries); recursive=true)
+DocMeta.setdocmeta!(PseudoPotentialData, :DocTestSetup, :(using PseudoPotentialData); recursive=true)
 
 makedocs(;
-    modules=[PseudoLibraries],
+    modules=[PseudoPotentialData],
     authors="Michael F. Herbst <info@michael-herbst.com> and contributors",
-    sitename="PseudoLibraries.jl",
+    sitename="PseudoPotentialData.jl",
     format=Documenter.HTML(;
-        canonical="https://juliamolsim.github.io/PseudoLibraries.jl",
+        canonical="https://juliamolsim.github.io/PseudoPotentialData.jl",
         edit_link="master",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/JuliaMolSim/PseudoLibraries.jl",
+    repo="github.com/JuliaMolSim/PseudoPotentialData.jl",
     devbranch="master",
 )

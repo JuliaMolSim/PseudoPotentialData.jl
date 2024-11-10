@@ -72,6 +72,6 @@ jobs:
         shell: julia --project=docs --color=yes {0}
         run: |
           using Documenter: DocMeta, doctest
-          using PseudoLibraries
-          DocMeta.setdocmeta!(PseudoLibraries, :DocTestSetup, :(using PseudoLibraries); recursive=true)
-          doctest(PseudoLibraries)
+          using PseudoPotentialData
+          DocMeta.setdocmeta!(PseudoPotentialData, :DocTestSetup, :(using PseudoPotentialData); recursive=true)
+          doctest(PseudoPotentialData)
