@@ -30,9 +30,7 @@ Base.Broadcast.broadcastable(l::PseudoFamily) = Ref(l)
 function Base.show(io::IO, family::PseudoFamily)
     print(io, "PseudoFamily(\"$(family.identifier)\")")
 end
-function Base.show(io::IO, ::MIME"text/plain", family::PseudoFamily)
-    show(io, family)
-end
+Base.show(io::IO, ::MIME"text/plain", family::PseudoFamily) = show(io, family)
 
 #
 # Helper functions (not exported)
