@@ -42,9 +42,9 @@ using Test
         @test family[:Si] == joinpath(basedir, "Si.upf")
     end
 
-    @testset "Printing " begin
+    @testset "Printing of family objects" begin
         io = IOBuffer()
-        show(io, family)
+        show(io, PseudoFamily("pd_nc_sr_pbe_stringent_0.4.1_upf"))
         @test occursin("PseudoFamily", String(take!(io)))
     end
 end
