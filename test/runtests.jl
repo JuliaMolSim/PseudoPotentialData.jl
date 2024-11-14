@@ -10,9 +10,8 @@ using Test
         @test family.functional == "lda"
         @test family.version == v"0.4.1"
 
-        file = pseudofile("pd_nc_sr_lda_stringent_0.4.1_upf", :Si)
+        file = pseudofile(family, :Si)
         @test basename(file) == "Si.upf"
-        @test file == pseudofile(family, :Si)
         @test file == family[:Si]
 
         files = pseudofile.(family, [:Si, :Si])
@@ -20,7 +19,6 @@ using Test
 
         @test_throws KeyError pseudofile(family, :Uun)
         @test_throws KeyError family[:Uun]
-        @test_throws KeyError pseudofile(identifier, :Uub)
     end
 
     @testset "Test all libraries can be loaded" begin
@@ -28,5 +26,19 @@ using Test
             family = PseudoFamily(identifier)
             @test family.identifier == identifier
         end
+    end
+
+    @testset "Dict interface of PseudoFamily" begin
+        identifier = "pd_nc_sr_pbe_stringent_0.4.1_upf"
+        family = PseudoFamily(identifier)
+        @test length(family) == 72
+        @test   :Si  in keys(family)
+        @test !(:Uub in keys(family))
+        @test  haskey(family, :Si)
+        @test !haskey(family, :Uub)
+
+        basedir = PseudoPotentialData.artifact_directory(family)
+        @test joinpath(basedir, "Si.upf") in values(family)
+        @test family[:Si] == joinpath(basedir, "Si.upf")
     end
 end

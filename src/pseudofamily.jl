@@ -1,5 +1,6 @@
-struct PseudoFamily
+struct PseudoFamily <: AbstractDict{Symbol,String}
     identifier::String
+    #
     # metadata
     extension::String   # Filename expected as $(symbol).$(extension)
     functional::String  # DFT functional keyword (or "" if unspecified)
@@ -24,21 +25,18 @@ function PseudoFamily(identifier::AbstractString)
                  meta["functional"],
                  VersionNumber(meta["version"]))
 end
-
 Base.Broadcast.broadcastable(l::PseudoFamily) = Ref(l)
-Base.getindex(family::PseudoFamily, element::Symbol) = pseudofile(family, element)
 
-
-"""Get the list of available pseudopotential family identifiers."""
-function family_identifiers()
-    artifact_file = find_artifacts_toml(@__FILE__)
-    @assert !isnothing(artifact_file)
-    collect(keys(TOML.parsefile(artifact_file)))
+function Base.show(io::IO, family::PseudoFamily)
+    print(io, "PseudoFamily(\"$(family.identifier)\")")
+end
+function Base.show(io::IO, ::MIME"text/plain", family::PseudoFamily)
+    show(io, family)
 end
 
-"""The list of all known pseudopotential families."""
-const families = map(PseudoFamily, family_identifiers())
-
+#
+# Helper functions (not exported)
+#
 
 """
 Return the directory containing the pseudo files.
@@ -46,16 +44,42 @@ This downloads the artifact if necessary.
 """
 artifact_directory(family::PseudoFamily) = (@artifact_str "$(family.identifier)")
 
+"""Return the list of all pseudopotential files in the artifact"""
+function available_elements(family::PseudoFamily)
+    # TODO Once this is part of the metadata, do this without downloading
+    files = filter!(endswith(family.extension),
+                    readdir(artifact_directory(family)))
+    map(files) do file
+        base, _ = splitext(file)
+        Symbol(base)
+    end
+end
+
 """
 Get the full path to the file containing the pseudopotential information
-for a particular element and a particular pseudopotential `family`.
-The family can be specified as an identifier or an object.
+for a particular `element` (identified by an atomic symbol) and a particular
+pseudopotential `family`.
 """
-function pseudofile(family::PseudoFamily, element::Symbol)
+pseudofile(family::PseudoFamily, element::Symbol) = family[element]
+
+#
+# AbstractDict interface
+#
+
+Base.keys(family::PseudoFamily) = available_elements(family)
+Base.length(family::PseudoFamily) = length(available_elements(family))
+
+function Base.getindex(family::PseudoFamily, element::Symbol)
     file = joinpath(artifact_directory(family), "$(element)." * family.extension)
     isfile(file) || throw(KeyError(element))
     file
 end
-function pseudofile(family::AbstractString, element::Symbol)
-    pseudofile(PseudoFamily(family), element)
+
+function Base.iterate(family::PseudoFamily, state::Int=0)
+    if state == length(family)
+        return nothing
+    else
+        element = available_elements(family)[state+1]
+        return (element => family[element], state+1)
+    end
 end

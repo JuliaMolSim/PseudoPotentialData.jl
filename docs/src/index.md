@@ -39,9 +39,18 @@ For multiple elements you can similarly use
 pseudofile.(family, [:C, :Si])
 ```
 
-Some metadata information is stored in the `family` object:
+A `PseudoFamily` is furthermore an `AbstractDict{Symbol,String}`
+for the mapping of element symbol to file path, e.g. one can perform
+index lookup
 ```@example index-example
-family
+family[:Si]
+```
+or iterate over pairs
+```@example index-example
+for (k, v) in family
+   println(k, " => ", v)
+   break
+end
 ```
 
 For a list of available identifiers see
