@@ -28,6 +28,13 @@ using Test
         end
     end
 
+    @testset "Family objects have a pseudo for standard elements" begin
+        for identifier in PseudoPotentialData.family_identifiers()
+            family = PseudoFamily(identifier)
+            @test isfile(family[:Si])
+        end
+    end
+
     @testset "Dict interface of PseudoFamily" begin
         identifier = "pd_nc_sr_pbe_stringent_0.4.1_upf"
         family = PseudoFamily(identifier)
