@@ -16,12 +16,12 @@ care to automatically download it as needed.
 
 For example, the following code automatically downloads the pseudopotential
 file of the [stringent pseudodojo](http://www.pseudo-dojo.org/) pseudopotential
-for LDA pseudopotentials (referred to by the identifier `pd_nc_sr_lda_stringent_0.4.1_upf`)
+for LDA pseudopotentials (referred to by the identifier `dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf`)
 and places the full path to the downloaded pseudopotential file into the `filename` variable:
 
 ```@example index-example
 using PseudoPotentialData
-identifier = "pd_nc_sr_lda_stringent_0.4.1_upf"
+identifier = "dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf"
 family = PseudoFamily(identifier)
 filename = pseudofile(family, :Si)
 ```
