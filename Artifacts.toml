@@ -1,36 +1,3 @@
-["pd_nc_sr_pbesol_standard_0.4.1_psp8"]
-extension = "psp8"
-functional = "pbesol"
-version = "0.4.1"
-git-tree-sha1 = "d5d914c4b8ae3119fae60f3a3e66225db41de579"
-lazy = true
-
-    [["pd_nc_sr_pbesol_standard_0.4.1_psp8".download]]
-    sha256 = "6870faeceb4f68196901160a6ac455016dc1b9b1ea4ec629607d8e1757d9055f"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_pbesol_standard_0.4.1_psp8.tar.gz"
-
-["pd_nc_sr_pbe_standard_0.4.1_psp8"]
-extension = "psp8"
-functional = "pbe"
-version = "0.4.1"
-git-tree-sha1 = "054625d663e05d8c86bd3b8c1b7f371b85eb906f"
-lazy = true
-
-    [["pd_nc_sr_pbe_standard_0.4.1_psp8".download]]
-    sha256 = "cffaf5a4bf41cca1f45d9f6f1ae8a6d5b83083ef62e69052459c26913bcf555a"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_pbe_standard_0.4.1_psp8.tar.gz"
-
-["pd_nc_sr_lda_standard_0.4.1_psp8"]
-extension = "psp8"
-functional = "lda"
-version = "0.4.1"
-git-tree-sha1 = "13a9394a722182e06cd28f7d8c0c6ed491b55c5d"
-lazy = true
-
-    [["pd_nc_sr_lda_standard_0.4.1_psp8".download]]
-    sha256 = "840a5f654e841ef8b42a5867c27d181996998535a118b7ccbfe355101352a5b7"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_lda_standard_0.4.1_psp8.tar.gz"
-
 ["pd_nc_sr_lda_stringent_0.4.1_upf"]
 extension = "upf"
 functional = "lda"
@@ -41,17 +8,6 @@ lazy = true
     [["pd_nc_sr_lda_stringent_0.4.1_upf".download]]
     sha256 = "ba0c16c557f24e39b0b71d64a1ba3582421e016ce7a9cc799c4de195b7c4ec21"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_lda_stringent_0.4.1_upf.tar.gz"
-
-["pd_nc_fr_pbe_standard_0.4_psp8"]
-extension = "psp8"
-functional = "pbe"
-version = "0.4"
-git-tree-sha1 = "82ac4c373d1a564f97638f28bc39bcdf076c665a"
-lazy = true
-
-    [["pd_nc_fr_pbe_standard_0.4_psp8".download]]
-    sha256 = "7b56901e5a68adf9de79a00cd192904585bb8985f10fc70c3ee9c0c27dbf9467"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_fr_pbe_standard_0.4_psp8.tar.gz"
 
 ["pd_paw_pbe_standard_1.1_xml"]
 extension = "xml"
@@ -64,17 +20,6 @@ lazy = true
     sha256 = "83c288b1356d4322c51ebef61975e1434bbf5eb303a82d41c0f4b076958b9beb"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_paw_pbe_standard_1.1_xml.tar.gz"
 
-["pd_nc_sr_pbe_stringent_0.4.1_psp8"]
-extension = "psp8"
-functional = "pbe"
-version = "0.4.1"
-git-tree-sha1 = "a87b12bba53fc184bf2eef49ab89f76837615cec"
-lazy = true
-
-    [["pd_nc_sr_pbe_stringent_0.4.1_psp8".download]]
-    sha256 = "eb7e7845711fe280cc0a5ebfb18c7cbb3c014bdc1ceab1897fd10c41c916775c"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_pbe_stringent_0.4.1_psp8.tar.gz"
-
 ["pd_nc_sr_lda_standard_0.4.1_upf"]
 extension = "upf"
 functional = "lda"
@@ -85,17 +30,6 @@ lazy = true
     [["pd_nc_sr_lda_standard_0.4.1_upf".download]]
     sha256 = "7606cfa6d1cfab22ff584c548d13fc37872ec648c5c4f6636ee7b1221277128a"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_lda_standard_0.4.1_upf.tar.gz"
-
-["pd_nc_fr_pbesol_stringent_0.4_psp8"]
-extension = "psp8"
-functional = "pbesol"
-version = "0.4"
-git-tree-sha1 = "9b3ace1374e6876109c9f38de8eaa3adc9ee0cfc"
-lazy = true
-
-    [["pd_nc_fr_pbesol_stringent_0.4_psp8".download]]
-    sha256 = "d32eae3c40ef4a64520b882378941864166673c94c3d69f067a1be2b3d1fbd12"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_fr_pbesol_stringent_0.4_psp8.tar.gz"
 
 ["pd_nc_fr_pbesol_stringent_0.4_upf"]
 extension = "upf"
@@ -119,17 +53,6 @@ lazy = true
     sha256 = "63b71d31f22b06965c9dd484d406d3deb63ea21b58d7b658727f09d210850d72"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_pbe_stringent_0.4.1_upf.tar.gz"
 
-["pd_nc_sr_pbesol_stringent_0.4.1_psp8"]
-extension = "psp8"
-functional = "pbesol"
-version = "0.4.1"
-git-tree-sha1 = "d43d8c44e419608c67397263e63ff7c7d7993bd1"
-lazy = true
-
-    [["pd_nc_sr_pbesol_stringent_0.4.1_psp8".download]]
-    sha256 = "b2d64feabd3b338f62f66a3e5d50ee285c665d8e76db9ff5a446c993de348707"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_pbesol_stringent_0.4.1_psp8.tar.gz"
-
 ["pd_nc_fr_pbesol_standard_0.4_upf"]
 extension = "upf"
 functional = "pbesol"
@@ -152,28 +75,6 @@ lazy = true
     sha256 = "56a9b15cac540357a67cf33b3219af59962bbaa7d4a1bac5b7dab72ed2462e88"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_pbesol_standard_0.4.1_upf.tar.gz"
 
-["pd_nc_fr_pbe_stringent_0.4_psp8"]
-extension = "psp8"
-functional = "pbe"
-version = "0.4"
-git-tree-sha1 = "05bf66898e0e961a583bd46d53eb18fda5fa239c"
-lazy = true
-
-    [["pd_nc_fr_pbe_stringent_0.4_psp8".download]]
-    sha256 = "020a3bfbe6a90adf8298272f1f98d617787cc0a622725e32c1f30393b438dc92"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_fr_pbe_stringent_0.4_psp8.tar.gz"
-
-["pd_nc_fr_pbesol_standard_0.4_psp8"]
-extension = "psp8"
-functional = "pbesol"
-version = "0.4"
-git-tree-sha1 = "793a9fccb2865d26c160595db36c785a4fbb9b4a"
-lazy = true
-
-    [["pd_nc_fr_pbesol_standard_0.4_psp8".download]]
-    sha256 = "b893fe721c51080fe5f3d19724042d6c9e2af2f245169e264b07bc58c7675273"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_fr_pbesol_standard_0.4_psp8.tar.gz"
-
 ["pd_nc_sr_pbe_standard_0.4.1_upf"]
 extension = "upf"
 functional = "pbe"
@@ -195,17 +96,6 @@ lazy = true
     [["pd_nc_fr_pbe_standard_0.4_upf".download]]
     sha256 = "1edd99303e7965091741be4286d9b6e3e1673fa3e8936a24a7ecd33dccc74985"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_fr_pbe_standard_0.4_upf.tar.gz"
-
-["pd_nc_sr_lda_stringent_0.4.1_psp8"]
-extension = "psp8"
-functional = "lda"
-version = "0.4.1"
-git-tree-sha1 = "e85a22581ece0447fe495371807db281d59052f8"
-lazy = true
-
-    [["pd_nc_sr_lda_stringent_0.4.1_psp8".download]]
-    sha256 = "2ec784ac815d80c6c20d7f51ae7bb9c2ebec491d6225c85f0833cabcc5e12a63"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/raw/main/artifacts/pd_nc_sr_lda_stringent_0.4.1_psp8.tar.gz"
 
 ["pd_nc_fr_pbe_stringent_0.4_upf"]
 extension = "upf"
