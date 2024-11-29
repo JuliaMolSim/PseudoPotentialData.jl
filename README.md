@@ -16,22 +16,20 @@ it will be automatically download as needed.
 For example, the following code automatically downloads the pseudopotential
 file for silicon of the [stringent pseudodojo](http://www.pseudo-dojo.org/)
 family for LDA pseudopotentials
-(referred to by the identifier `pd_nc_sr_lda_stringent_0.4.1_upf`)
+(referred to by the identifier `dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf`)
 and places the full path to the downloaded pseudopotential file
 into the `filename` variable:
 
 ```julia
 using PseudoPotentialData
-identifier = "pd_nc_sr_lda_stringent_0.4.1_upf"
+identifier = "dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf"
 family = PseudoFamily(identifier)
-filename = pseudofile(family, :Si)
+filename = family[:Si]
 ```
 
 For a list of available identifiers see
 ```julia
 PseudoPotentialData.family_identifiers()
 ```
-More details on the meaning of these keys is given
-in the README of the
-[PseudoLibrary](https://github.com/JuliaMolSim/PseudoLibrary/blob/7c4b71a3b9d70a229d757aa6d546ef22b83a85a9/README.md)
-repository.
+Details on the naming convention of these keys and their respective
+meaning provides the [PseudoPotentialData documenation](https://juliamolsim.github.io/PseudoPotentialData.jl/).
