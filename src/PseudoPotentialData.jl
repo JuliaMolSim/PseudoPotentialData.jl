@@ -16,12 +16,7 @@ include("pseudofamily.jl")
 function family_identifiers()
     artifact_file = find_artifacts_toml(@__FILE__)
     @assert !isnothing(artifact_file)
-
-    # TODO For compatibility already use new keys
-    artifactmap_inv = Dict(v => k for (k, v) in artifactmap)
-    map(collect(keys(TOML.parsefile(artifact_file)))) do key
-        artifactmap_inv[key]
-    end
+    sort(collect(keys(TOML.parsefile(artifact_file))))
 end
 
 """The list of all known pseudopotential families."""

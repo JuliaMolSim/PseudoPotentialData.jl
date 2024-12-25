@@ -21,7 +21,7 @@ an element symbol to the full path of the pseudopotential file.
 function PseudoFamily(identifier::AbstractString)
     artifact_file = find_artifacts_toml(@__FILE__)
     @assert !isnothing(artifact_file)
-    meta = artifact_meta(artifactmap[identifier], artifact_file)
+    meta = artifact_meta(identifier, artifact_file)
     isnothing(meta) && throw(ArgumentError("Invalid pseudo identifier: $identifier"))
     PseudoFamily(identifier,
                  meta["extension"],
@@ -39,26 +39,12 @@ Base.show(io::IO, ::MIME"text/plain", family::PseudoFamily) = show(io, family)
 # Helper functions (not exported)
 #
 
-# TODO For compatibility, map new to old ... will disappear at some point
-const artifactmap = Dict(
-    "dojo.nc.fr.pbesol.v0_4.oncvpsp3.standard.upf"   => "pd_nc_fr_pbesol_standard_0.4_upf",
-    "dojo.nc.fr.pbesol.v0_4.oncvpsp3.stringent.upf"  => "pd_nc_fr_pbesol_stringent_0.4_upf",
-    "dojo.nc.fr.pbe.v0_4.oncvpsp3.standard.upf"      => "pd_nc_fr_pbe_standard_0.4_upf",
-    "dojo.nc.fr.pbe.v0_4.oncvpsp3.stringent.upf"     => "pd_nc_fr_pbe_stringent_0.4_upf",
-    "dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf"    => "pd_nc_sr_lda_standard_0.4.1_upf",
-    "dojo.nc.sr.lda.v0_4_1.oncvpsp3.stringent.upf"   => "pd_nc_sr_lda_stringent_0.4.1_upf",
-    "dojo.nc.sr.pbesol.v0_4_1.oncvpsp3.standard.upf" => "pd_nc_sr_pbesol_standard_0.4.1_upf",
-    "dojo.nc.sr.pbe.v0_4_1.oncvpsp3.standard.upf"    => "pd_nc_sr_pbe_standard_0.4.1_upf",
-    "dojo.nc.sr.pbe.v0_4_1.oncvpsp3.stringent.upf"   => "pd_nc_sr_pbe_stringent_0.4.1_upf",
-    "dojo.paw.pbe.v1_1.jth.standard.xml"             => "pd_paw_pbe_standard_1.1_xml",
-)
-
 """
 Return the directory containing the pseudo files.
 This downloads the artifact if necessary.
 """
 function artifact_directory(family::PseudoFamily)
-    @artifact_str "$(artifactmap[family.identifier])"
+    @artifact_str "$(family.identifier)"
 end
 
 """Return the list of all pseudopotential files in the artifact"""
