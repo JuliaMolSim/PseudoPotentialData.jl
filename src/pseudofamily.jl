@@ -2,13 +2,17 @@ struct PseudoFamily <: AbstractDict{Symbol,String}
     identifier::String
     #
     # metadata
-    extension::String   # Filename expected as $(symbol).$(extension)
-    functional::String  # DFT functional keyword (or "" if unspecified)
-    version::VersionNumber
+    collection::String        # Pseudo collection this family is from (e.g. "dojo")
+    type::String              # Pseudofamily type ("nc", "us", "paw")
+    relativistic::String      # Kind of relativistic effects ("fr", "sr")
+    functional::String        # DFT functional keyword
+    version::VersionNumber    # Version of the pseudofamily
+    program::String           # Program used to generate the pseudos
+    extra::Vector{String}     # Additional specifiers for this family
+    extension::String         # Filename expected as $(symbol).$(extension)
+    elements::Vector{Symbol}  # Available elements
     # TODO More things will probably follow
-    #    - Type of pseudisation (norm-conserving, PAW, ...)
     #    - References to papers describing these pseudopotentials
-    #    - Elements available
 end
 
 """
@@ -24,9 +28,15 @@ function PseudoFamily(identifier::AbstractString)
     meta = artifact_meta(identifier, artifact_file)
     isnothing(meta) && throw(ArgumentError("Invalid pseudo identifier: $identifier"))
     PseudoFamily(identifier,
-                 meta["extension"],
+                 meta["collection"],
+                 meta["type"],
+                 meta["relativistic"],
                  meta["functional"],
-                 VersionNumber(meta["version"]))
+                 VersionNumber(meta["version"]),
+                 meta["program"],
+                 meta["extra"],
+                 meta["extension"],
+                 Symbol.(meta["elements"]))
 end
 Base.Broadcast.broadcastable(l::PseudoFamily) = Ref(l)
 
@@ -48,15 +58,7 @@ function artifact_directory(family::PseudoFamily)
 end
 
 """Return the list of all pseudopotential files in the artifact"""
-function available_elements(family::PseudoFamily)
-    # TODO Once this is part of the metadata, do this without downloading
-    files = filter!(endswith(family.extension),
-                    readdir(artifact_directory(family)))
-    map(files) do file
-        base, _ = splitext(file)
-        Symbol(base)
-    end
-end
+available_elements(family::PseudoFamily) = family.elements
 
 """
 Get the full path to the file containing the pseudopotential information
