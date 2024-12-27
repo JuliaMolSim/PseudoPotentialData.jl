@@ -1,359 +1,479 @@
-["dojo.paw.sr.pbesol.v1_1.jth.stringent.xml"]
+["dojo.paw.sr.pbesol.v1_1.stringent.xml"]
 functional = "pbesol"
 elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
 relativistic = "sr"
 program = "jth"
-git-tree-sha1 = "48761bf92d20ed3c8b42ba50752ada8e19060daa"
+git-tree-sha1 = "92754485dfee9e7e641d3e544c033a45fe2312cd"
 version = "1.1"
 extra = ["stringent"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T20:46:57.480"
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T20:39:56.848"
 extension = "xml"
 pseudodojo_handle = "paw-sr-11_pbesol_stringent_xml"
 lazy = true
 type = "paw"
 collection = "dojo"
 
-    [["dojo.paw.sr.pbesol.v1_1.jth.stringent.xml".download]]
-    sha256 = "4e26f5007860d88ca55c17aab62aad3f55a63f947774d2ea0b524c15c2581bf5"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.paw.sr.pbesol.v1_1.jth.stringent.xml.tar.gz"
+    [["dojo.paw.sr.pbesol.v1_1.stringent.xml".download]]
+    sha256 = "9c365a2593357b956b57caa6794038c3210ec84c735830330239ca1e78285ef6"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.paw.sr.pbesol.v1_1.stringent.xml.tar.gz"
 
-["dojo.nc.sr.lda.v0_4_1.oncvpsp3.stringent.upf"]
-functional = "lda"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
-relativistic = "sr"
-program = "oncvpsp3"
-git-tree-sha1 = "08fbd610f192fe21ccd7ea3309f4e522565f0ea0"
-version = "0.4.1"
-extra = ["stringent"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T19:53:08.817"
-extension = "upf"
-pseudodojo_handle = "nc-sr-04_pw_stringent_upf"
-lazy = true
-type = "nc"
-collection = "dojo"
-
-    [["dojo.nc.sr.lda.v0_4_1.oncvpsp3.stringent.upf".download]]
-    sha256 = "50c0ab4171e5aaa754f355d2804918fdbdd5419fa704c8859ea2607506f67d09"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.sr.lda.v0_4_1.oncvpsp3.stringent.upf.tar.gz"
-
-["dojo.nc.sr.pbe.v0_5.oncvpsp3.stringent.upf"]
-functional = "pbe"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
-relativistic = "sr"
-program = "oncvpsp3"
-git-tree-sha1 = "5d734c937a8b2b791873ef2b02e588dd2e69b2a0"
-version = "0.5"
-extra = ["stringent"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T20:10:30.027"
-extension = "upf"
-pseudodojo_handle = "nc-sr-05_pbe_stringent_upf"
-lazy = true
-type = "nc"
-collection = "dojo"
-
-    [["dojo.nc.sr.pbe.v0_5.oncvpsp3.stringent.upf".download]]
-    sha256 = "bac30b6565f480f8f8e0fa482056bf092ccd3fc6b6cf6527b00322cf2e675ebe"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.sr.pbe.v0_5.oncvpsp3.stringent.upf.tar.gz"
-
-["dojo.nc.fr.pbe.v0_4.oncvpsp3.standard.upf"]
-functional = "pbe"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
-relativistic = "fr"
-program = "oncvpsp3"
-git-tree-sha1 = "37a03760bfec49347dde95df072df74c8201283e"
-version = "0.4"
-extra = ["standard"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T20:53:39.810"
-extension = "upf"
-pseudodojo_handle = "nc-fr-04_pbe_standard_upf"
-lazy = true
-type = "nc"
-collection = "dojo"
-
-    [["dojo.nc.fr.pbe.v0_4.oncvpsp3.standard.upf".download]]
-    sha256 = "7b67ddbe709a93939c0048de93dba8582622c9bc940878be6c82abfefcb68f77"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.fr.pbe.v0_4.oncvpsp3.standard.upf.tar.gz"
-
-["dojo.nc.sr.pbe.v0_4_1.oncvpsp3.standard.upf"]
-functional = "pbe"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
-relativistic = "sr"
-program = "oncvpsp3"
-git-tree-sha1 = "605c9401655e25ef4ff75a5d717f8829bd32801f"
-version = "0.4.1"
-extra = ["standard"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T19:54:35.176"
-extension = "upf"
-pseudodojo_handle = "nc-sr-04_pbe_standard_upf"
-lazy = true
-type = "nc"
-collection = "dojo"
-
-    [["dojo.nc.sr.pbe.v0_4_1.oncvpsp3.standard.upf".download]]
-    sha256 = "967e319abb79986515c0f1a6bbb6616fcb828a9bd7030c153c771fee6965f78f"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.sr.pbe.v0_4_1.oncvpsp3.standard.upf.tar.gz"
-
-["dojo.nc.sr.pbe.v0_4_1.oncvpsp3.stringent.upf"]
-functional = "pbe"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
-relativistic = "sr"
-program = "oncvpsp3"
-git-tree-sha1 = "d86b1a65b93546a67d567d86afbafc223402f7ed"
-version = "0.4.1"
-extra = ["stringent"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T19:56:04.739"
-extension = "upf"
-pseudodojo_handle = "nc-sr-04_pbe_stringent_upf"
-lazy = true
-type = "nc"
-collection = "dojo"
-
-    [["dojo.nc.sr.pbe.v0_4_1.oncvpsp3.stringent.upf".download]]
-    sha256 = "4c18710d22e9e5b425c13e5440c110505a39c682bc409805d17044ebd9aa3546"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.sr.pbe.v0_4_1.oncvpsp3.stringent.upf.tar.gz"
-
-["dojo.nc.fr.pbesol.v0_4.oncvpsp3.standard.upf"]
+["dojo.nc.fr.pbesol.v0_4.stringent.upf"]
 functional = "pbesol"
 elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
 relativistic = "fr"
 program = "oncvpsp3"
-git-tree-sha1 = "5b30c77cfe246fd934ab11022dbae7c03b1d272e"
-version = "0.4"
-extra = ["standard"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T19:46:40.724"
-extension = "upf"
-pseudodojo_handle = "nc-fr-04_pbesol_standard_upf"
-lazy = true
-type = "nc"
-collection = "dojo"
-
-    [["dojo.nc.fr.pbesol.v0_4.oncvpsp3.standard.upf".download]]
-    sha256 = "b4968073f4c0c0220e38b4a3dccce382e1c443a9543c135528275f332e70eabd"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.fr.pbesol.v0_4.oncvpsp3.standard.upf.tar.gz"
-
-["dojo.nc.sr.pbesol.v0_4_1.oncvpsp3.standard.upf"]
-functional = "pbesol"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
-relativistic = "sr"
-program = "oncvpsp3"
-git-tree-sha1 = "23a2d6f52f7917009698ef7069f623a3c6330aa0"
-version = "0.4.1"
-extra = ["standard"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T19:57:16.025"
-extension = "upf"
-pseudodojo_handle = "nc-sr-04_pbesol_standard_upf"
-lazy = true
-type = "nc"
-collection = "dojo"
-
-    [["dojo.nc.sr.pbesol.v0_4_1.oncvpsp3.standard.upf".download]]
-    sha256 = "ad5d2ef7f7a985a4d511205515513ee986ede2ac0c84a595a9ccc64bbe9ef31c"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.sr.pbesol.v0_4_1.oncvpsp3.standard.upf.tar.gz"
-
-["dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf"]
-functional = "lda"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
-relativistic = "sr"
-program = "oncvpsp3"
-git-tree-sha1 = "fa96d918ffb5a20e81953abf6467d84e7af97a41"
-version = "0.4.1"
-extra = ["standard"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T19:51:50.082"
-extension = "upf"
-pseudodojo_handle = "nc-sr-04_pw_standard_upf"
-lazy = true
-type = "nc"
-collection = "dojo"
-
-    [["dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf".download]]
-    sha256 = "f50f4ffae43fe357a992ce555b973e26894c5d85af30d90d4fc0f0ea62844d11"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf.tar.gz"
-
-["dojo.nc.fr.pbe.v0_4.oncvpsp3.stringent.upf"]
-functional = "pbe"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
-relativistic = "fr"
-program = "oncvpsp3"
-git-tree-sha1 = "3c03cdaadb7e0472c6218efc2ac21d0f5134efe3"
+git-tree-sha1 = "0d9d23407089283c05cf72aa6cc26741492440c6"
 version = "0.4"
 extra = ["stringent"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T19:44:54.539"
-extension = "upf"
-pseudodojo_handle = "nc-fr-04_pbe_stringent_upf"
-lazy = true
-type = "nc"
-collection = "dojo"
-
-    [["dojo.nc.fr.pbe.v0_4.oncvpsp3.stringent.upf".download]]
-    sha256 = "6b0371113c26c6f776466e24bff62b1dc599c081227d28fe1fe36cf10d123502"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.fr.pbe.v0_4.oncvpsp3.stringent.upf.tar.gz"
-
-["dojo.paw.sr.lda.v1_1.jth.stringent.xml"]
-functional = "lda"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
-relativistic = "sr"
-program = "jth"
-git-tree-sha1 = "8eae185af57c10ade1ea9a7a625adb17921918c1"
-version = "1.1"
-extra = ["stringent"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T20:22:27.486"
-extension = "xml"
-pseudodojo_handle = "paw-sr-11_lda_stringent_xml"
-lazy = true
-type = "paw"
-collection = "dojo"
-
-    [["dojo.paw.sr.lda.v1_1.jth.stringent.xml".download]]
-    sha256 = "3e6b5abb8393b46d7fd7b476040cc43ff6be23872f57651933cbea986560ef81"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.paw.sr.lda.v1_1.jth.stringent.xml.tar.gz"
-
-["dojo.paw.sr.pbesol.v1_1.jth.standard.xml"]
-functional = "pbesol"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
-relativistic = "sr"
-program = "jth"
-git-tree-sha1 = "9566d420c0d1ae7b483b6110ede1a528b575b8c1"
-version = "1.1"
-extra = ["standard"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T20:41:02.538"
-extension = "xml"
-pseudodojo_handle = "paw-sr-11_pbesol_standard_xml"
-lazy = true
-type = "paw"
-collection = "dojo"
-
-    [["dojo.paw.sr.pbesol.v1_1.jth.standard.xml".download]]
-    sha256 = "8ded917c19a2f8333b047ee719cfcef3c1f784c34373769fbec130f55324a02c"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.paw.sr.pbesol.v1_1.jth.standard.xml.tar.gz"
-
-["dojo.nc.fr.pbesol.v0_4.oncvpsp3.stringent.upf"]
-functional = "pbesol"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
-relativistic = "fr"
-program = "oncvpsp3"
-git-tree-sha1 = "a041fa5b7830aa594430594c4f2bb6f4c37c4274"
-version = "0.4"
-extra = ["stringent"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T19:48:22.707"
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:51:20.752"
 extension = "upf"
 pseudodojo_handle = "nc-fr-04_pbesol_stringent_upf"
 lazy = true
 type = "nc"
 collection = "dojo"
 
-    [["dojo.nc.fr.pbesol.v0_4.oncvpsp3.stringent.upf".download]]
-    sha256 = "ec2b0a370622c48b1205d8730bc94df9a28bd6942cee7735d660c616c0e603b7"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.fr.pbesol.v0_4.oncvpsp3.stringent.upf.tar.gz"
+    [["dojo.nc.fr.pbesol.v0_4.stringent.upf".download]]
+    sha256 = "e3694568bc9086852684e35c63842a8623521ef1ac4b7426a03c9e27058818d1"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.fr.pbesol.v0_4.stringent.upf.tar.gz"
 
-["dojo.nc.sr.pbe.v0_5.oncvpsp3.standard.upf"]
+["dojo.paw.sr.pbesol.v1_1.standard.xml"]
+functional = "pbesol"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
+relativistic = "sr"
+program = "jth"
+git-tree-sha1 = "97ab48af900a30ddeedca97d303b4772b6709a4c"
+version = "1.1"
+extra = ["standard"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T20:34:20.486"
+extension = "xml"
+pseudodojo_handle = "paw-sr-11_pbesol_standard_xml"
+lazy = true
+type = "paw"
+collection = "dojo"
+
+    [["dojo.paw.sr.pbesol.v1_1.standard.xml".download]]
+    sha256 = "66b9e932ed5725becfa609b797c0f5b1b835a848b9d930955071e29d81898e54"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.paw.sr.pbesol.v1_1.standard.xml.tar.gz"
+
+["dojo.paw.sr.lda.v1_1.stringent.xml"]
+functional = "lda"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
+relativistic = "sr"
+program = "jth"
+git-tree-sha1 = "d2d03ecd03001a8dafc7d068336d1a495f476edc"
+version = "1.1"
+extra = ["stringent"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T20:10:20.938"
+extension = "xml"
+pseudodojo_handle = "paw-sr-11_lda_stringent_xml"
+lazy = true
+type = "paw"
+collection = "dojo"
+
+    [["dojo.paw.sr.lda.v1_1.stringent.xml".download]]
+    sha256 = "cc70080b2c5aa45e2644dc5eaed6323812be09ce901dac7217cb274018dd3899"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.paw.sr.lda.v1_1.stringent.xml.tar.gz"
+
+["cp2k.nc.sr.pbe.v0_1.smallcore.hgh"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
+relativistic = "sr"
+program = "pseudo2.3"
+git-tree-sha1 = "af14aa84b059f3c1897b800e39030fe36d349b52"
+version = "0.1"
+extra = ["smallcore"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T21:18:25.122"
+extension = "hgh"
+cp2k_data_handle = "potentials/Goedecker/cp2k/pbe"
+lazy = true
+type = "nc"
+collection = "cp2k"
+
+    [["cp2k.nc.sr.pbe.v0_1.smallcore.hgh".download]]
+    sha256 = "9d0d0d1a96b103c519591bd4757f42cf72699eab1b5910317f304692d81b88df"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/cp2k.nc.sr.pbe.v0_1.smallcore.hgh.tar.gz"
+
+["dojo.nc.sr.pbe.v0_5.standard.upf"]
 functional = "pbe"
 elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
 relativistic = "sr"
 program = "oncvpsp3"
-git-tree-sha1 = "95632796f0d492d04b9376bf496f4549e55a6012"
+git-tree-sha1 = "df57ed182ef58f17ee5ec4d1b221ace3613aa759"
 version = "0.5"
 extra = ["standard"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T20:04:19.868"
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:56:19.286"
 extension = "upf"
 pseudodojo_handle = "nc-sr-05_pbe_standard_upf"
 lazy = true
 type = "nc"
 collection = "dojo"
 
-    [["dojo.nc.sr.pbe.v0_5.oncvpsp3.standard.upf".download]]
-    sha256 = "3752bf80155b97a605326cc568f3b1394b31eae4a8b5603b3f1755ad0c84c4c8"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.sr.pbe.v0_5.oncvpsp3.standard.upf.tar.gz"
+    [["dojo.nc.sr.pbe.v0_5.standard.upf".download]]
+    sha256 = "4f4ac4be10fbfa42eea88d591a924136e4cca916a4e41b44fff1533c6fed2857"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.sr.pbe.v0_5.standard.upf.tar.gz"
 
-["dojo.nc.sr.pbesol.v0_4_1.oncvpsp3.stringent.upf"]
+["dojo.nc.sr.pbesol.v0_4_1.stringent.upf"]
 functional = "pbesol"
 elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
 relativistic = "sr"
 program = "oncvpsp3"
-git-tree-sha1 = "157d7fefda93e1c2d8cedcb6442ec44da51cb15b"
+git-tree-sha1 = "1800a4b56a5b08827bb1c87a2d67d1169cae038c"
 version = "0.4.1"
 extra = ["stringent"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T19:58:25.050"
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:53:58.988"
 extension = "upf"
 pseudodojo_handle = "nc-sr-04_pbesol_stringent_upf"
 lazy = true
 type = "nc"
 collection = "dojo"
 
-    [["dojo.nc.sr.pbesol.v0_4_1.oncvpsp3.stringent.upf".download]]
-    sha256 = "2da2d54d13bc1be38108f86f4b73ce14c2bcb9fed1786c421b3e89f38caa8d9d"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.nc.sr.pbesol.v0_4_1.oncvpsp3.stringent.upf.tar.gz"
+    [["dojo.nc.sr.pbesol.v0_4_1.stringent.upf".download]]
+    sha256 = "f925137ca018409f3c95f9d9f43ef40f638f1200be6a0c4a91c4173c03fa31a6"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.sr.pbesol.v0_4_1.stringent.upf.tar.gz"
 
-["dojo.paw.sr.pbe.v1_1.jth.standard.xml"]
-functional = "pbe"
-elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
+["cp2k.nc.sr.lda.v0_1.largecore.hgh"]
+functional = "lda"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
 relativistic = "sr"
-program = "jth"
-git-tree-sha1 = "5fb19c2033716fe26312a418b0b304c6b725d2ee"
-version = "1.1"
-extra = ["standard"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T20:28:02.131"
-extension = "xml"
-pseudodojo_handle = "paw-sr-11_pbe_standard_xml"
+program = "pseudo2.3"
+git-tree-sha1 = "d97edc2a8e5b5cc89f22c7e6cc3df1417d5fb0a5"
+version = "0.1"
+extra = ["largecore"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T21:18:24.539"
+extension = "hgh"
+cp2k_data_handle = "potentials/Goedecker/cp2k/pade"
 lazy = true
-type = "paw"
+type = "nc"
+collection = "cp2k"
+
+    [["cp2k.nc.sr.lda.v0_1.largecore.hgh".download]]
+    sha256 = "6118d746d1f1499274bd2092de1bd6de864e1ac25a7fa9e5394e6fde7e58dd05"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/cp2k.nc.sr.lda.v0_1.largecore.hgh.tar.gz"
+
+["cp2k.nc.sr.pbe.v0_1.semicore.hgh"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
+relativistic = "sr"
+program = "pseudo2.3"
+git-tree-sha1 = "d9ebe2553f6afb58af4ff4a9b209ae888285b898"
+version = "0.1"
+extra = ["semicore"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T21:18:25.448"
+extension = "hgh"
+cp2k_data_handle = "potentials/Goedecker/cp2k/pbe"
+lazy = true
+type = "nc"
+collection = "cp2k"
+
+    [["cp2k.nc.sr.pbe.v0_1.semicore.hgh".download]]
+    sha256 = "f432c49a049d23cc0aa3d00f97073e5fdca560484171bb8c7d2dd09f6f6f608b"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/cp2k.nc.sr.pbe.v0_1.semicore.hgh.tar.gz"
+
+["dojo.nc.sr.pbe.v0_4_1.standard.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
+relativistic = "sr"
+program = "oncvpsp3"
+git-tree-sha1 = "6629fcfbb53461928968115342cb8b4a0d27d33c"
+version = "0.4.1"
+extra = ["standard"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:52:43.722"
+extension = "upf"
+pseudodojo_handle = "nc-sr-04_pbe_standard_upf"
+lazy = true
+type = "nc"
 collection = "dojo"
 
-    [["dojo.paw.sr.pbe.v1_1.jth.standard.xml".download]]
-    sha256 = "3d4c79cda7199c84283535bea477bda96063e5dfab6d98a3221c0b517514ed09"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.paw.sr.pbe.v1_1.jth.standard.xml.tar.gz"
+    [["dojo.nc.sr.pbe.v0_4_1.standard.upf".download]]
+    sha256 = "5b47bfb11f64e426ed596c35fe05826d11e85654995302bccf3cb5cacfc0cb19"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.sr.pbe.v0_4_1.standard.upf.tar.gz"
 
-["dojo.paw.sr.lda.v1_1.jth.standard.xml"]
+["dojo.nc.sr.pbe.v0_5.stringent.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
+relativistic = "sr"
+program = "oncvpsp3"
+git-tree-sha1 = "72a1ff91d8b7318ff6e2fe6db0e5978905917ff7"
+version = "0.5"
+extra = ["stringent"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:59:04.730"
+extension = "upf"
+pseudodojo_handle = "nc-sr-05_pbe_stringent_upf"
+lazy = true
+type = "nc"
+collection = "dojo"
+
+    [["dojo.nc.sr.pbe.v0_5.stringent.upf".download]]
+    sha256 = "8328527c0507c7b6ba8861470889a8c94c02b2e5df7c33dee4aa969ca54a3047"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.sr.pbe.v0_5.stringent.upf.tar.gz"
+
+["dojo.nc.sr.pbesol.v0_4_1.standard.upf"]
+functional = "pbesol"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
+relativistic = "sr"
+program = "oncvpsp3"
+git-tree-sha1 = "f1358ce7d2fe48eaa9a8f078837ff13227781ed8"
+version = "0.4.1"
+extra = ["standard"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:53:32.893"
+extension = "upf"
+pseudodojo_handle = "nc-sr-04_pbesol_standard_upf"
+lazy = true
+type = "nc"
+collection = "dojo"
+
+    [["dojo.nc.sr.pbesol.v0_4_1.standard.upf".download]]
+    sha256 = "41aef0b36662fd47ed5727b6cc1bf39ffe84cf7e3af65ca90c6e8c04dec24f66"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.sr.pbesol.v0_4_1.standard.upf.tar.gz"
+
+["cp2k.nc.sr.lda.v0_1.semicore.hgh"]
+functional = "lda"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
+relativistic = "sr"
+program = "pseudo2.3"
+git-tree-sha1 = "093d8ac9b5f98e55cfea72f4af20494119717566"
+version = "0.1"
+extra = ["semicore"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T21:18:24.205"
+extension = "hgh"
+cp2k_data_handle = "potentials/Goedecker/cp2k/pade"
+lazy = true
+type = "nc"
+collection = "cp2k"
+
+    [["cp2k.nc.sr.lda.v0_1.semicore.hgh".download]]
+    sha256 = "d1ae2b9df3b606579addffa6b2ce290790fce52a5e3e7461ed460b9d9c2b1f66"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/cp2k.nc.sr.lda.v0_1.semicore.hgh.tar.gz"
+
+["dojo.nc.fr.pbesol.v0_4.standard.upf"]
+functional = "pbesol"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
+relativistic = "fr"
+program = "oncvpsp3"
+git-tree-sha1 = "6ef72e7443ab5105041b9fa9d8021329f53615cb"
+version = "0.4"
+extra = ["standard"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:50:42.466"
+extension = "upf"
+pseudodojo_handle = "nc-fr-04_pbesol_standard_upf"
+lazy = true
+type = "nc"
+collection = "dojo"
+
+    [["dojo.nc.fr.pbesol.v0_4.standard.upf".download]]
+    sha256 = "e3608783500f984400e1458116952ee4f147f6a25fa88c5124d16cc50f836121"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.fr.pbesol.v0_4.standard.upf.tar.gz"
+
+["dojo.nc.sr.pbe.v0_4_1.stringent.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
+relativistic = "sr"
+program = "oncvpsp3"
+git-tree-sha1 = "618934c593b8b329e6e79a4afe3547cb4f3f70b5"
+version = "0.4.1"
+extra = ["stringent"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:53:11.804"
+extension = "upf"
+pseudodojo_handle = "nc-sr-04_pbe_stringent_upf"
+lazy = true
+type = "nc"
+collection = "dojo"
+
+    [["dojo.nc.sr.pbe.v0_4_1.stringent.upf".download]]
+    sha256 = "b90b27e810e90072e27337b00a0c338e1bebbab1224d04ab85f7cccc9d9c70ac"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.sr.pbe.v0_4_1.stringent.upf.tar.gz"
+
+["dojo.nc.sr.lda.v0_4_1.stringent.upf"]
+functional = "lda"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
+relativistic = "sr"
+program = "oncvpsp3"
+git-tree-sha1 = "d3c394d921d730c7064caff6627fad7d97c9f10f"
+version = "0.4.1"
+extra = ["stringent"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:52:13.683"
+extension = "upf"
+pseudodojo_handle = "nc-sr-04_pw_stringent_upf"
+lazy = true
+type = "nc"
+collection = "dojo"
+
+    [["dojo.nc.sr.lda.v0_4_1.stringent.upf".download]]
+    sha256 = "539aaaa7dcc1f8bb5eafccd89db0807f173d5fef729137a452369453c409cc1e"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.sr.lda.v0_4_1.stringent.upf.tar.gz"
+
+["dojo.nc.fr.pbe.v0_4.standard.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
+relativistic = "fr"
+program = "oncvpsp3"
+git-tree-sha1 = "16da77291326d2a5d789fb828ffd3596eea6c625"
+version = "0.4"
+extra = ["standard"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:49:29.219"
+extension = "upf"
+pseudodojo_handle = "nc-fr-04_pbe_standard_upf"
+lazy = true
+type = "nc"
+collection = "dojo"
+
+    [["dojo.nc.fr.pbe.v0_4.standard.upf".download]]
+    sha256 = "9d0f0571df1e3fd0edab69b4969f8cd63a818896bd45f263d78748b474135815"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.fr.pbe.v0_4.standard.upf.tar.gz"
+
+["dojo.paw.sr.lda.v1_1.standard.xml"]
 functional = "lda"
 elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
 relativistic = "sr"
 program = "jth"
-git-tree-sha1 = "8808a6c29b1a21ca7fa7f027c8d03a9e14c426e9"
+git-tree-sha1 = "3b7624365f64a32e513cd10ef724f50aa042736c"
 version = "1.1"
 extra = ["standard"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T20:16:42.964"
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T20:03:22"
 extension = "xml"
 pseudodojo_handle = "paw-sr-11_lda_standard_xml"
 lazy = true
 type = "paw"
 collection = "dojo"
 
-    [["dojo.paw.sr.lda.v1_1.jth.standard.xml".download]]
-    sha256 = "73d339eae880faae669e8182ff187bd5e6f5df5c2c824a6b388693d70a1e2faf"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.paw.sr.lda.v1_1.jth.standard.xml.tar.gz"
+    [["dojo.paw.sr.lda.v1_1.standard.xml".download]]
+    sha256 = "4bc5a0def63accf167999828cd36a69d75184dc61534c1b4462d0459dae88d1b"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.paw.sr.lda.v1_1.standard.xml.tar.gz"
 
-["dojo.paw.sr.pbe.v1_1.jth.stringent.xml"]
+["dojo.nc.fr.pbe.v0_4.stringent.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
+relativistic = "fr"
+program = "oncvpsp3"
+git-tree-sha1 = "ea70902b9e70eea531c9068afed1a56b5743e469"
+version = "0.4"
+extra = ["stringent"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:50:05.128"
+extension = "upf"
+pseudodojo_handle = "nc-fr-04_pbe_stringent_upf"
+lazy = true
+type = "nc"
+collection = "dojo"
+
+    [["dojo.nc.fr.pbe.v0_4.stringent.upf".download]]
+    sha256 = "4f509cc6130135f6d1c919b6bbdf068d73191525f18bea8feecf5d6dedf83a96"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.fr.pbe.v0_4.stringent.upf.tar.gz"
+
+["dojo.paw.sr.pbe.v1_1.standard.xml"]
 functional = "pbe"
 elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
 relativistic = "sr"
 program = "jth"
-git-tree-sha1 = "a384e4d9f81fb28eb34f89808347c7c096291703"
+git-tree-sha1 = "a4ca889cee44f4abc392b90183664133c2d5d711"
+version = "1.1"
+extra = ["standard"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T20:19:04.343"
+extension = "xml"
+pseudodojo_handle = "paw-sr-11_pbe_standard_xml"
+lazy = true
+type = "paw"
+collection = "dojo"
+
+    [["dojo.paw.sr.pbe.v1_1.standard.xml".download]]
+    sha256 = "95c631f032ede1cfe1ffadbb123c0d72f50e4125edcbdc1fdf57b3c3198c7df3"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.paw.sr.pbe.v1_1.standard.xml.tar.gz"
+
+["dojo.paw.sr.pbe.v1_1.stringent.xml"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
+relativistic = "sr"
+program = "jth"
+git-tree-sha1 = "ed437adac0f1f7ca07cc018440d5cb39f67a2e84"
 version = "1.1"
 extra = ["stringent"]
-pseudolibrary_version = "0.0.3"
-extracted_on = "2024-12-25T20:34:30.873"
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T20:28:50.666"
 extension = "xml"
 pseudodojo_handle = "paw-sr-11_pbe_stringent_xml"
 lazy = true
 type = "paw"
 collection = "dojo"
 
-    [["dojo.paw.sr.pbe.v1_1.jth.stringent.xml".download]]
-    sha256 = "3fc921a4e3c9ed0ee87211b80af5ce8bf1cf6be8f7ebc7ad7f2909041dbc3326"
-    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.3/dojo.paw.sr.pbe.v1_1.jth.stringent.xml.tar.gz"
+    [["dojo.paw.sr.pbe.v1_1.stringent.xml".download]]
+    sha256 = "98a8a452a6c4cd49b4c468a138cf25ea3d0504b1ea3acfb20e500ea97424d95e"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.paw.sr.pbe.v1_1.stringent.xml.tar.gz"
+
+["cp2k.nc.sr.pbe.v0_1.largecore.hgh"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
+relativistic = "sr"
+program = "pseudo2.3"
+git-tree-sha1 = "24d751902fbd05855e7b288582ee8683464ed7cc"
+version = "0.1"
+extra = ["largecore"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T21:18:25.762"
+extension = "hgh"
+cp2k_data_handle = "potentials/Goedecker/cp2k/pbe"
+lazy = true
+type = "nc"
+collection = "cp2k"
+
+    [["cp2k.nc.sr.pbe.v0_1.largecore.hgh".download]]
+    sha256 = "3171b0d804d11204a1c9b8e5fd6e5b2f7af3e0f046ee4d6b8693386f16498f68"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/cp2k.nc.sr.pbe.v0_1.largecore.hgh.tar.gz"
+
+["cp2k.nc.sr.lda.v0_1.smallcore.hgh"]
+functional = "lda"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
+relativistic = "sr"
+program = "pseudo2.3"
+git-tree-sha1 = "638f5f259f7f8593cdaade9da199e8c023aaa6be"
+version = "0.1"
+extra = ["smallcore"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T21:18:23.903"
+extension = "hgh"
+cp2k_data_handle = "potentials/Goedecker/cp2k/pade"
+lazy = true
+type = "nc"
+collection = "cp2k"
+
+    [["cp2k.nc.sr.lda.v0_1.smallcore.hgh".download]]
+    sha256 = "28e34092588f40a2a3bdfec5f62ac4fa3401e5c0c71b9bfb5fe04070be37fedd"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/cp2k.nc.sr.lda.v0_1.smallcore.hgh.tar.gz"
+
+["dojo.nc.sr.lda.v0_4_1.standard.upf"]
+functional = "lda"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "Rn"]
+relativistic = "sr"
+program = "oncvpsp3"
+git-tree-sha1 = "326db5c901e2681584ec5c06fc17f6c96e516ff9"
+version = "0.4.1"
+extra = ["standard"]
+pseudolibrary_version = "0.0.4"
+extracted_on = "2024-12-27T19:51:43.744"
+extension = "upf"
+pseudodojo_handle = "nc-sr-04_pw_standard_upf"
+lazy = true
+type = "nc"
+collection = "dojo"
+
+    [["dojo.nc.sr.lda.v0_4_1.standard.upf".download]]
+    sha256 = "85fc0c888d3ab53fb3e3bb0df4bde56759c0a1ca68c96e1e9f62415fab56e8ac"
+    url = "https://github.com/mfherbst/PseudoLibrary/releases/download/v0.0.4/dojo.nc.sr.lda.v0_4_1.standard.upf.tar.gz"
