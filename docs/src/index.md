@@ -69,7 +69,7 @@ pseudometa(family, :Si)
 Notably this often contains recommended values of the kinetic energy
 cutoffs of plane-wave bases. These can be also accessed more conveniently via
 ```@example index-example
-recomended_cutoff(family, :Si)
+recommended_cutoff(family, :Si)
 ```
 
 ## Available pseudopotential families and naming convention
