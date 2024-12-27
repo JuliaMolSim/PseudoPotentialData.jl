@@ -16,13 +16,12 @@ care to automatically download it as needed.
 
 For example, the following code automatically downloads the pseudopotential
 file of the [stringent pseudodojo](http://www.pseudo-dojo.org/) pseudopotential
-for LDA pseudopotentials (referred to by the identifier `dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf`)
+for LDA pseudopotentials (referred to by the identifier `dojo.nc.sr.lda.v0_4_1.standard.upf`)
 and places the full path to the downloaded pseudopotential file into the `filename` variable:
 
 ```@example index-example
 using PseudoPotentialData
-identifier = "dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf"
-family = PseudoFamily(identifier)
+family = PseudoFamily("dojo.nc.sr.lda.v0_4_1.standard.upf")
 filename = pseudofile(family, :Si)
 ```
 As you see this will be a string such as
@@ -86,11 +85,10 @@ These are:
 3. `relativistic`: Details on the level of relativistic effects employed when generating the pseudo (`fr`: Full relativistic, `sr`: Scalar relativistic, `nr`: No relativistic)
 4. `functional`: The functional for which the pseudopotential was prepared
 5. `version`: The version of the pseudopotential construction (with version points replaced by underscores)
-6. `program`: The program used to generate the pseudopotential
-7. `extra`: Some additional comments specifying the pseudopotential.
+6. `extra`: Some additional comments specifying the pseudopotential.
    E.g. for PseudoDojo potentials there is usually a `stringent` version
    (requiring slightly larger cutoffs) and a `standard` version being a bit softer.
-8. `extension`: The format of the pseudopotential files in this library.
+7. `extension`: The format of the pseudopotential files in this library.
 
 For a given [`PseudoFamily`](@ref) object the above fields
 (as well as typically additional metadata information) can also be

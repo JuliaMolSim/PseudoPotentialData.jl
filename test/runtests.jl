@@ -3,7 +3,7 @@ using Test
 
 @testset "PseudoPotentialData.jl" begin
     @testset "Test one family can be loaded" begin
-        identifier = "dojo.nc.sr.lda.v0_4_1.oncvpsp3.stringent.upf"
+        identifier = "dojo.nc.sr.lda.v0_4_1.stringent.upf"
         family = PseudoFamily(identifier)
         @test family.identifier == identifier
         @test family.extension  == "upf"
@@ -36,7 +36,7 @@ using Test
     end
 
     @testset "Dict interface of PseudoFamily" begin
-        family = PseudoFamily("dojo.nc.sr.pbe.v0_4_1.oncvpsp3.stringent.upf")
+        family = PseudoFamily("dojo.nc.sr.pbe.v0_4_1.stringent.upf")
         @test length(family) == 72
         @test   :Si  in keys(family)
         @test !(:Uub in keys(family))
@@ -50,7 +50,7 @@ using Test
 
     @testset "Printing of family objects" begin
         io = IOBuffer()
-        show(io, PseudoFamily("dojo.nc.sr.pbe.v0_4_1.oncvpsp3.stringent.upf"))
+        show(io, PseudoFamily("dojo.nc.sr.pbe.v0_4_1.stringent.upf"))
         @test occursin("PseudoFamily", String(take!(io)))
     end
 end

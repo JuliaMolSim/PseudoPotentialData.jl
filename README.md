@@ -15,15 +15,14 @@ it will be automatically download as needed.
 
 For example, the following code automatically downloads the pseudopotential
 file for silicon of the [stringent pseudodojo](http://www.pseudo-dojo.org/)
-family for LDA pseudopotentials
-(referred to by the identifier `dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf`)
+family for LDA pseudopotentials (referred to by
+the identifier `dojo.nc.sr.lda.v0_4_1.standard.upf`)
 and places the full path to the downloaded pseudopotential file
 into the `filename` variable:
 
 ```julia
 using PseudoPotentialData
-identifier = "dojo.nc.sr.lda.v0_4_1.oncvpsp3.standard.upf"
-family = PseudoFamily(identifier)
+family = PseudoFamily("dojo.nc.sr.lda.v0_4_1.standard.upf")
 filename = family[:Si]
 ```
 
