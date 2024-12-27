@@ -4,11 +4,10 @@ using Compat: @compat
 using LazyArtifacts
 using TOML
 
-export PseudoFamily, pseudofile
+export PseudoFamily
+export pseudofile, pseudometa, recommended_cutoff
 @compat public families
 @compat public family_identifiers
-
-export available_elements, has_element
 
 include("pseudofamily.jl")
 
