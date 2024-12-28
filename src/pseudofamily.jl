@@ -25,10 +25,16 @@ A `PseudoFamily` is an `AbstractDict{Symbol,String} mapping from
 an element symbol to the full path of the pseudopotential file.
 """
 function PseudoFamily(identifier::AbstractString)
+    if occursin(".oncvpsp3.", identifier)
+        newid = replace(identifier, ".oncvpsp3." => ".")
+        @warn "Identifier $identifier is deprecated. Use $newid instead."
+        return PseudoFamily(newid)
+    end
+
     artifact_file = find_artifacts_toml(@__FILE__)
     @assert !isnothing(artifact_file)
     meta = artifact_meta(identifier, artifact_file)
-    isnothing(meta) && throw(ArgumentError("Invalid pseudo identifier: $identifier"))
+    isnothing(meta) && throw(ArgumentError("Invalid PseudoFamily identifier: $identifier"))
 
     additional_metadata = Dict{String,Any}()
     for k in keys(meta)
