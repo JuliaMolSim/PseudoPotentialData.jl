@@ -1,8 +1,15 @@
 module PseudoPotentialData
+using DocStringExtensions
 using Artifacts
 using Compat: @compat
 using LazyArtifacts
 using TOML
+
+@template (FUNCTIONS, METHODS, MACROS) = 
+    """
+    $(TYPEDSIGNATURES)
+    $(DOCSTRING)
+    """
 
 export PseudoFamily
 export pseudofile, pseudometa, recommended_cutoff
