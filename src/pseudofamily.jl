@@ -13,8 +13,7 @@ struct PseudoFamily <: AbstractDict{Symbol,String}
     elements::Vector{Symbol}  # Available elements
     #
     additional_metadata::Dict{String,Any}
-    # TODO More things will probably follow
-    #    - References to papers describing these pseudopotentials
+    # TODO References to relevant papers ?
 end
 
 """
@@ -91,13 +90,14 @@ end
 """
 Return the recommended kinetic energy cutoff, supersampling and density
 cutoff for the pseudopotential indentified by this `family` and `element`.
+`Ecut` and `Ecut_density` are returned in Hartree.
 """
 function recommended_cutoff(family::PseudoFamily, element::Symbol)
     data = pseudometa(family, element)
 
-    Ecut = missing
-    supersampling = missing
-    Ecut_density = missing
+    Ecut::Union{Missing,Float64}          = missing
+    supersampling::Union{Missing,Float64} = missing
+    Ecut_density::Union{Missing,Float64}  = missing
     if haskey(data, "Ecut") && data["Ecut"] > 0
         Ecut = data["Ecut"]
         if haskey(data, "supersampling")
