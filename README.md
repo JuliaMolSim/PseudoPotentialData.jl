@@ -14,7 +14,7 @@ In case the pseudopotential data file happens to be missing on the computer
 it will be automatically download.
 
 For example, the following code automatically downloads the pseudopotential
-file for silicon of the [stringent pseudodojo](http://www.pseudo-dojo.org/)
+file for silicon of the [standard pseudodojo](http://www.pseudo-dojo.org/)
 family for LDA pseudopotentials (referred to by
 the identifier `dojo.nc.sr.lda.v0_4_1.standard.upf`)
 and places the full path to the downloaded pseudopotential file
