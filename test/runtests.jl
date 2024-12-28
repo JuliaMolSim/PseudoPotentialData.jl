@@ -81,19 +81,19 @@ using Test
         meta = pseudometa(family, :Si)
 
         @test haskey(meta, "rcut")
-        @test meta["Ecut"] == 18.0
+        @test meta["Ecut"] == 16.0
         @test meta["supersamping"] == 2.0
-        @test meta["cutoffs_low"   ]["Ecut"] == 14.0
-        @test meta["cutoffs_normal"]["Ecut"] == 18.0
-        @test meta["cutoffs_high"  ]["Ecut"] == 24.0
+        @test meta["cutoffs_low"   ]["Ecut"] == 12.0
+        @test meta["cutoffs_normal"]["Ecut"] == 16.0
+        @test meta["cutoffs_high"  ]["Ecut"] == 22.0
         @test meta["cutoffs_low"   ]["supersampling"] == 2.0
         @test meta["cutoffs_normal"]["supersampling"] == 2.0
         @test meta["cutoffs_high"  ]["supersampling"] == 2.0
 
         cutoffs = recommended_cutoff(family, :Si)
-        @test cutoff.Ecut == 18.0
-        @test cutoff.supersampling == 2.0
-        @test cutoff.Ecut_density == 72.0
+        @test cutoffs.Ecut == 16.0
+        @test cutoffs.supersampling == 2.0
+        @test cutoffs.Ecut_density == 64.0
     end
 
     @testset "Pseudometa on cp2k element" begin
