@@ -82,7 +82,7 @@ using Test
 
         @test haskey(meta, "rcut")
         @test meta["Ecut"] == 16.0
-        @test meta["supersamping"] == 2.0
+        @test meta["supersampling"] == 2.0
         @test meta["cutoffs_low"   ]["Ecut"] == 12.0
         @test meta["cutoffs_normal"]["Ecut"] == 16.0
         @test meta["cutoffs_high"  ]["Ecut"] == 22.0
