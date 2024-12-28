@@ -70,6 +70,7 @@ cutoffs of plane-wave bases. These can be also accessed more conveniently via
 ```@example index-example
 recommended_cutoff(family, :Si)
 ```
+Note, that the `Ecut` and `Ecut_density` values are in atomic Hartree units.
 
 ## Available pseudopotential families and naming convention
 A list of available pseudopotential families is available as
@@ -88,7 +89,7 @@ These are:
 6. `extra`: Some additional comments specifying the pseudopotential.
    E.g. for PseudoDojo potentials there is usually a `stringent` version
    (requiring slightly larger cutoffs) and a `standard` version being a bit softer.
-7. `extension`: The format of the pseudopotential files in this library.
+7. `extension`: The file format of the pseudopotential files in this library.
 
 For a given [`PseudoFamily`](@ref) object the above fields
 (as well as typically additional metadata information) can also be
