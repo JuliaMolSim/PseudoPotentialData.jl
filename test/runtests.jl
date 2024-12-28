@@ -49,8 +49,13 @@ using Test
     end
 
     @testset "Printing of family objects" begin
+        family = PseudoFamily("dojo.nc.sr.pbe.v0_4_1.stringent.upf")
         io = IOBuffer()
-        show(io, PseudoFamily("dojo.nc.sr.pbe.v0_4_1.stringent.upf"))
+        show(io, family)
+        @test occursin("PseudoFamily", String(take!(io)))
+
+        io = IOBuffer()
+        show(io, MIME("text/plain"), family)
         @test occursin("PseudoFamily", String(take!(io)))
     end
 
@@ -69,6 +74,26 @@ using Test
         @test meta["pseudodojo_handle"] == "nc-sr-04_pw_stringent_upf"
         @test haskey(meta, "elements")
         @test haskey(meta, "extracted_on")
+    end
+
+    @testset "Pseudometa on pseudodojo element" begin
+        family = PseudoFamily("dojo.nc.sr.lda.v0_4_1.standard.upf")
+        meta = pseudometa(family, :Si)
+
+        @test haskey(meta, "rcut")
+        @test meta["Ecut"] == 18.0
+        @test meta["supersamping"] == 2.0
+        @test meta["cutoffs_low"   ]["Ecut"] == 14.0
+        @test meta["cutoffs_normal"]["Ecut"] == 18.0
+        @test meta["cutoffs_high"  ]["Ecut"] == 24.0
+        @test meta["cutoffs_low"   ]["supersampling"] == 2.0
+        @test meta["cutoffs_normal"]["supersampling"] == 2.0
+        @test meta["cutoffs_high"  ]["supersampling"] == 2.0
+
+        cutoffs = recommended_cutoff(family, :Si)
+        @test cutoff.Ecut == 18.0
+        @test cutoff.supersampling == 2.0
+        @test cutoff.Ecut_density == 72.0
     end
 
     @testset "Pseudometa on cp2k element" begin
