@@ -15,7 +15,7 @@ care to automatically download it as needed.
 ## Basic usage
 
 For example, the following code automatically downloads the pseudopotential
-file of the [stringent pseudodojo](http://www.pseudo-dojo.org/) pseudopotential
+file of the [standard pseudodojo](http://www.pseudo-dojo.org/) pseudopotential
 for LDA pseudopotentials (referred to by the identifier `dojo.nc.sr.lda.v0_4_1.standard.upf`)
 and places the full path to the downloaded pseudopotential file into the `filename` variable:
 
