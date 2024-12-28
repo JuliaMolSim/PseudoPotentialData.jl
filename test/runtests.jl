@@ -74,7 +74,7 @@ using Test
     @testset "Pseudometa on cp2k element" begin
         family = PseudoFamily("cp2k.nc.sr.lda.v0_1.semicore.gth")
         meta = pseudometa(family, :Si)
-        @test meta["cp2k_filename"] ==" Si-q4"
+        @test meta["cp2k_filename"] == "Si-q4"
         @test meta["n_valence_electrons"] == 4
         @test haskey(meta, "Ecut")
         @test haskey(meta, "supersampling")
@@ -85,7 +85,7 @@ using Test
             family = PseudoFamily(identifier)
             for element in keys(family)
                 @test isfile(family[element])
-                @test pseudometa(element) isa AbstractDict
+                @test pseudometa(family, element) isa AbstractDict
             end
         end
     end
