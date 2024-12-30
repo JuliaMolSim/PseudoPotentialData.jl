@@ -19,13 +19,18 @@ export pseudofile, pseudometa, recommended_cutoff
 include("pseudofamily.jl")
 
 """Get the list of available pseudopotential family identifiers."""
-function family_identifiers()
+family_identifiers() = sort(collect(keys(families)))
+
+"""
+Dictionary from pseudopotential identifiers to respective `PseudoLibrary` instances.
+Note, that in the REPL typing `PseudoPotentialData.families["dojo. <Tab>` allows
+to find the pseudofamily identifier by Tab completion.
+"""
+const families = let
     artifact_file = find_artifacts_toml(@__FILE__)
     @assert !isnothing(artifact_file)
-    sort(collect(keys(TOML.parsefile(artifact_file))))
+    Dict(id => PseudoFamily(id)
+         for id in keys(TOML.parsefile(artifact_file)))
 end
-
-"""The list of all known pseudopotential families."""
-const families = map(PseudoFamily, family_identifiers())
 
 end
