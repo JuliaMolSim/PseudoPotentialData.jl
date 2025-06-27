@@ -61,6 +61,10 @@ function Base.show(io::IO, family::PseudoFamily)
 end
 Base.show(io::IO, ::MIME"text/plain", family::PseudoFamily) = show(io, family)
 
+function Base.:(==)(lhs::PseudoFamily, rhs::PseudoFamily)
+    lhs.identifier == rhs.identifier
+end
+
 """
 Get the full path to the file containing the pseudopotential information
 for a particular `element` (identified by an atomic symbol) and a particular

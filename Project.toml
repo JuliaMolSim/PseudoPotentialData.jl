@@ -1,7 +1,7 @@
 name = "PseudoPotentialData"
 uuid = "5751a51d-ac76-4487-a056-413ecf6fbe19"
 authors = ["Michael F. Herbst <info@michael-herbst.com> and contributors"]
-version = "0.2.2"
+version = "0.2.3"
 
 [deps]
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -10,8 +10,15 @@ DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
+[weakdeps]
+AtomsBase = "a963bdd2-2df7-4f54-a1ee-49d51e6be12a"
+
+[extensions]
+PseudoPotentialDataAtomsBaseExt = "AtomsBase"
+
 [compat]
 Artifacts = "1"
+AtomsBase = "0.5"
 Compat = "4.16"
 DocStringExtensions = "0.9.3"
 LazyArtifacts = "1"
@@ -20,6 +27,8 @@ julia = "1.10"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+AtomsBase = "a963bdd2-2df7-4f54-a1ee-49d51e6be12a"
 
 [targets]
-test = ["Test"]
+test = ["AtomsBase", "Unitful", "Test"]

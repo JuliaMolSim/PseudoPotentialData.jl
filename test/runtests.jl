@@ -1,5 +1,8 @@
+using AtomsBase
 using PseudoPotentialData
 using Test
+using Unitful
+
 
 @testset "PseudoPotentialData.jl" begin
     @testset "Test one family can be loaded" begin
@@ -113,5 +116,29 @@ using Test
                 @test pseudometa(family, element) isa AbstractDict
             end
         end
+    end
+
+    @testset "recommended_cutoff on systems" begin
+        family = PseudoFamily("dojo.nc.sr.lda.v0_4_1.standard.upf")
+        cutoffs_Si = recommended_cutoff(family, :Si)
+        cutoffs_Ga = recommended_cutoff(family, :Ga)
+        cutoffs_As = recommended_cutoff(family, :As)
+
+        ref_Ecut  = max(cutoffs_Ga.Ecut, cutoffs_As.Ecut, cutoffs_Si.Ecut)
+        ref_Edens = max(cutoffs_Ga.Ecut_density, cutoffs_As.Ecut_density,
+                        cutoffs_Si.Ecut_density)
+        ref_super = max(cutoffs_Ga.supersampling, cutoffs_As.supersampling,
+                        cutoffs_Si.supersampling)
+
+        box = [[10, 0.0, 0.0], [0.0, 5, 0.0], [0.0, 0.0, 7]]u"Å"
+        atoms = [:Si => [0.0, -0.125, 0.0],
+                 :Ga => [0.125, 0.0, 0.0],
+                 :As => [-0.125, 0.0, 0.0]]
+        system = periodic_system(atoms, box; fractional=true)
+
+        cutoffs = recommended_cutoff(family, system)
+        @test cutoffs.Ecut          == ref_Ecut
+        @test cutoffs.Ecut_density  == ref_Edens
+        @test cutoffs.supersampling == ref_super
     end
 end
