@@ -62,6 +62,15 @@ using Unitful
         @test occursin("PseudoFamily", String(take!(io)))
     end
 
+    @testset "Comparison of family objects" begin
+        f1 = PseudoFamily("dojo.nc.sr.pbe.v0_4_1.stringent.upf")
+        f2 = PseudoFamily("dojo.nc.sr.lda.v0_4_1.stringent.upf")
+
+        @test f1 == f1
+        @test f2 == f2
+        @test f1 != f2
+    end
+
     @testset "Pseudometa on families" begin
         family = PseudoFamily("dojo.nc.sr.lda.v0_4_1.stringent.upf")
         meta = pseudometa(family)
