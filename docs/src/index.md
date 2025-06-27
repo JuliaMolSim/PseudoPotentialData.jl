@@ -70,7 +70,18 @@ cutoffs of plane-wave bases. These can be also accessed more conveniently via
 ```@example index-example
 recommended_cutoff(family, :Si)
 ```
-Note, that the `Ecut` and `Ecut_density` values are in atomic Hartree units.
+The `Ecut` and `Ecut_density` values are provided in atomic Hartree units.
+Note, that if you are working with `AbstractSystem` objects from
+[AtomsBase.jl](https://github.com/JuliaMolSim/AtomsBase.jl) compatible packages
+you can also directly supply a system to `recommended_cutoff` in order to obtain
+the *maximal* recommended values over all elements contained in the respective
+system, e.g.
+```julia
+using AtomsBuilder
+system = bulk(:Si)
+recommended_cutoff(family, system)
+```
+
 
 ## Available pseudopotential families and naming convention
 A list of available pseudopotential families is available as
