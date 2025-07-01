@@ -16,12 +16,14 @@ using Unitful
         file = pseudofile(family, :Si)
         @test basename(file) == "Si.upf"
         @test file == family[:Si]
+        @test file == get(family, :Si, "default")
 
         files = pseudofile.(family, [:Si, :Si])
         @test all(isequal(file), files)
 
         @test_throws KeyError pseudofile(family, :Uun)
         @test_throws KeyError family[:Uun]
+        @test get(family, :Uun, "default") == "default"
     end
 
     @testset "Test all libraries can be loaded" begin
@@ -69,6 +71,10 @@ using Unitful
         @test f1 == f1
         @test f2 == f2
         @test f1 != f2
+
+        @test hash(f1) == hash(f1)
+        @test hash(f2) == hash(f2)
+        @test hash(f1) != hash(f2)
     end
 
     @testset "Pseudometa on families" begin

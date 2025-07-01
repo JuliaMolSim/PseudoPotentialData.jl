@@ -58,6 +58,7 @@ Base.show(io::IO, ::MIME"text/plain", family::PseudoFamily) = show(io, family)
 function Base.:(==)(lhs::PseudoFamily, rhs::PseudoFamily)
     lhs.identifier == rhs.identifier
 end
+Base.hash(x::PseudoFamily) = hash(x.identifier)
 
 """
 Get the full path to the file containing the pseudopotential information
@@ -113,6 +114,15 @@ end
 
 Base.keys(family::PseudoFamily)   = family.elements
 Base.length(family::PseudoFamily) = length(family.elements)
+
+function Base.get(f, family::PseudoFamily, element::Symbol)
+    if element in family.elements
+        return getindex(family, element)::String
+    else
+        return f()
+    end
+end
+Base.get(family::PseudoFamily, element::Symbol, default) = get(() -> default, family, element)
 
 function Base.getindex(family::PseudoFamily, element::Symbol)
     file = joinpath(artifact_directory(family), "$(element)." * family.extension)
