@@ -6,7 +6,7 @@ program = "pseudo2.3"
 git-tree-sha1 = "966fd9cdcd7dbaba6dc2bf43ee50dd81e63e8837"
 version = "0.1"
 extra = ["semicore"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T22:17:45.486"
 extension = "gth"
 cp2k_data_handle = "potentials/Goedecker/cp2k/pade"
@@ -15,8 +15,8 @@ type = "nc"
 collection = "cp2k"
 
     [["cp2k.nc.sr.lda.v0_1.semicore.gth".download]]
-    sha256 = "87e424b87d93563c8abbc557eca1f60d34b410d8f56a74cc4bd7f54761b9fc56"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/cp2k.nc.sr.lda.v0_1.semicore.gth.tar.gz"
+    sha256 = "bb72261fd8a83c7b1952b4e9e7654ca844655476dcbe71992fd715b74fd8b047"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/cp2k.nc.sr.lda.v0_1.semicore.gth.tar.gz"
 
 ["cp2k.nc.sr.pbe.v0_1.smallcore.gth"]
 functional = "pbe"
@@ -26,7 +26,7 @@ program = "pseudo2.3"
 git-tree-sha1 = "a1e980700f474c43ad70b60c2839e7af491974b2"
 version = "0.1"
 extra = ["smallcore"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T22:17:46.837"
 extension = "gth"
 cp2k_data_handle = "potentials/Goedecker/cp2k/pbe"
@@ -35,8 +35,8 @@ type = "nc"
 collection = "cp2k"
 
     [["cp2k.nc.sr.pbe.v0_1.smallcore.gth".download]]
-    sha256 = "a631781399dbbfd1c200524860c2499e925dedc12fc157e76822e03cdcaa16d2"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/cp2k.nc.sr.pbe.v0_1.smallcore.gth.tar.gz"
+    sha256 = "d24e3211f44088cdb04887e1eb867f81ff2d48e06ddda65f7e8b5f0975d71a07"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/cp2k.nc.sr.pbe.v0_1.smallcore.gth.tar.gz"
 
 ["cp2k.nc.sr.pbe.v0_1.largecore.gth"]
 functional = "pbe"
@@ -46,7 +46,7 @@ program = "pseudo2.3"
 git-tree-sha1 = "9a2a5dc89d1b33bff2ad61eaf2d000191050d15c"
 version = "0.1"
 extra = ["largecore"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T22:17:47.704"
 extension = "gth"
 cp2k_data_handle = "potentials/Goedecker/cp2k/pbe"
@@ -55,8 +55,8 @@ type = "nc"
 collection = "cp2k"
 
     [["cp2k.nc.sr.pbe.v0_1.largecore.gth".download]]
-    sha256 = "7b6f1b16bee9a5a559cfe96cb6ab36ee077dfa2dd575695cb815b27d911bc820"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/cp2k.nc.sr.pbe.v0_1.largecore.gth.tar.gz"
+    sha256 = "ec417ebc7b90d15507640cc54a85b66ee13b01fa1349a3db6a9b827a2e86c4fb"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/cp2k.nc.sr.pbe.v0_1.largecore.gth.tar.gz"
 
 ["dojo.paw.sr.pbesol.v1_1.stringent.xml"]
 functional = "pbesol"
@@ -66,7 +66,7 @@ program = "jth"
 git-tree-sha1 = "4e7123d252136142bcea8380e6e42781a70f3530"
 version = "1.1"
 extra = ["stringent"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T20:39:56.848"
 extension = "xml"
 pseudodojo_handle = "paw-sr-11_pbesol_stringent_xml"
@@ -75,8 +75,8 @@ type = "paw"
 collection = "dojo"
 
     [["dojo.paw.sr.pbesol.v1_1.stringent.xml".download]]
-    sha256 = "56e6e72b9dea84425b75f10f5615290b5b2415c4da1383a33f95948d4138f4e7"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.paw.sr.pbesol.v1_1.stringent.xml.tar.gz"
+    sha256 = "a8218e9ace0ce4277176d9179e967af25815555fa79daed372f7e9fa7de29517"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.paw.sr.pbesol.v1_1.stringent.xml.tar.gz"
 
 ["dojo.nc.fr.pbesol.v0_4.stringent.upf"]
 functional = "pbesol"
@@ -86,7 +86,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "b9d31b902d479f27ebd6420c6e4cc0bb5281d8b0"
 version = "0.4"
 extra = ["stringent"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:51:20.752"
 extension = "upf"
 pseudodojo_handle = "nc-fr-04_pbesol_stringent_upf"
@@ -95,8 +95,28 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.fr.pbesol.v0_4.stringent.upf".download]]
-    sha256 = "3d191e9e2a031aa4186f548578ced01439ce4b04cbe8b917b563747f99a27cce"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.fr.pbesol.v0_4.stringent.upf.tar.gz"
+    sha256 = "30670649c0eb3f0537f64bf2ab98d1ebba005bdb72f07970673dacea2f3f2be4"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.fr.pbesol.v0_4.stringent.upf.tar.gz"
+
+["sg15.nc.fr.pbe.v1_1.canonical.upf"]
+functional = "pbe"
+elements = ["H", "He", "B", "C", "N", "O", "F", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "La", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb"]
+relativistic = "fr"
+program = "oncvpsp2"
+git-tree-sha1 = "3b1ca879feaa03640d8e1f3fd174c0712fe2d53a"
+version = "1.1"
+extra = ["canonical"]
+pseudolibrary_version = "0.2.1"
+extracted_on = "2026-03-10T08:37:31.639"
+sg_suffix = "ONCV_PBE_FR-1.1"
+extension = "upf"
+lazy = true
+type = "nc"
+collection = "sg15"
+
+    [["sg15.nc.fr.pbe.v1_1.canonical.upf".download]]
+    sha256 = "389c4eb11ef99ea164ac98bbdf07def20a5daf4942341694333008c56805c731"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/sg15.nc.fr.pbe.v1_1.canonical.upf.tar.gz"
 
 ["dojo.paw.sr.pbesol.v1_1.standard.xml"]
 functional = "pbesol"
@@ -106,7 +126,7 @@ program = "jth"
 git-tree-sha1 = "66d517ba79af056856d94cc2c09a75c4e9bfef4f"
 version = "1.1"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T20:34:20.486"
 extension = "xml"
 pseudodojo_handle = "paw-sr-11_pbesol_standard_xml"
@@ -115,8 +135,8 @@ type = "paw"
 collection = "dojo"
 
     [["dojo.paw.sr.pbesol.v1_1.standard.xml".download]]
-    sha256 = "221b6dd5b4cd7e8e600990fb65e6bd26da977324ec7857ac42f4d7f707f11a44"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.paw.sr.pbesol.v1_1.standard.xml.tar.gz"
+    sha256 = "e6a25b046922adc78da9c972f22f6468b3d86c5d8dfdade7c0abeb995ee0bd66"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.paw.sr.pbesol.v1_1.standard.xml.tar.gz"
 
 ["cp2k.nc.sr.lda.v0_1.largecore.gth"]
 functional = "lda"
@@ -126,7 +146,7 @@ program = "pseudo2.3"
 git-tree-sha1 = "ddd194b975d4ba302431cfbc3dd8de8f1e80c013"
 version = "0.1"
 extra = ["largecore"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T22:17:45.922"
 extension = "gth"
 cp2k_data_handle = "potentials/Goedecker/cp2k/pade"
@@ -135,8 +155,8 @@ type = "nc"
 collection = "cp2k"
 
     [["cp2k.nc.sr.lda.v0_1.largecore.gth".download]]
-    sha256 = "e1cfa71e6a08c7fe050cb930d630ac89c01e359b5d2057f236e214dbaf70c0af"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/cp2k.nc.sr.lda.v0_1.largecore.gth.tar.gz"
+    sha256 = "d3df2062dee43bd9117c39a9539cc8bdbbb3a83b80ccd2c6554888f1a58e0e41"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/cp2k.nc.sr.lda.v0_1.largecore.gth.tar.gz"
 
 ["dojo.paw.sr.lda.v1_1.stringent.xml"]
 functional = "lda"
@@ -146,7 +166,7 @@ program = "jth"
 git-tree-sha1 = "0ab5209f3f9223ad01c2f74ba86495d9918d3afa"
 version = "1.1"
 extra = ["stringent"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T20:10:20.938"
 extension = "xml"
 pseudodojo_handle = "paw-sr-11_lda_stringent_xml"
@@ -155,8 +175,8 @@ type = "paw"
 collection = "dojo"
 
     [["dojo.paw.sr.lda.v1_1.stringent.xml".download]]
-    sha256 = "cb9560f5ab52f153583e950f5a200e6ee04adff9088712c5f6c7a4c307938787"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.paw.sr.lda.v1_1.stringent.xml.tar.gz"
+    sha256 = "366c02c9f12bb70f2a8a31d1cd748d7a3fd7ec5a2fb816c3db4ae095a6bd3248"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.paw.sr.lda.v1_1.stringent.xml.tar.gz"
 
 ["dojo.nc.sr.pbe.v0_5.standard.upf"]
 functional = "pbe"
@@ -166,7 +186,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "dcb5c70d968c86067cca5bfdfde1244fd56b9b49"
 version = "0.5"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:56:19.286"
 extension = "upf"
 pseudodojo_handle = "nc-sr-05_pbe_standard_upf"
@@ -175,8 +195,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.sr.pbe.v0_5.standard.upf".download]]
-    sha256 = "cca9a6fb6fcfd12672536f9b62d13f7b657fbb2070453af4b48877a8148ce782"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.sr.pbe.v0_5.standard.upf.tar.gz"
+    sha256 = "ab7906d4499116dadf12b13304ec81e303a6478adc629a722cf5d84a7305aaa2"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.sr.pbe.v0_5.standard.upf.tar.gz"
 
 ["dojo.nc.sr.pbesol.v0_4_1.stringent.upf"]
 functional = "pbesol"
@@ -186,7 +206,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "a369250f6db1ca759b4b1deee36ecee344c10ba1"
 version = "0.4.1"
 extra = ["stringent"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:53:58.988"
 extension = "upf"
 pseudodojo_handle = "nc-sr-04_pbesol_stringent_upf"
@@ -195,8 +215,28 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.sr.pbesol.v0_4_1.stringent.upf".download]]
-    sha256 = "11ba9a45bfaa1dfa24c1cfb8d87ee0a4593e9cac939b79e8de5ce70ea77bb54a"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.sr.pbesol.v0_4_1.stringent.upf.tar.gz"
+    sha256 = "f83fa2a6539086351a7e02e878c28545abb593362d30166080e213cfd4a6763a"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.sr.pbesol.v0_4_1.stringent.upf.tar.gz"
+
+["sg15.nc.sr.pbe.v1_1.canonical.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi"]
+relativistic = "sr"
+program = "oncvpsp2"
+git-tree-sha1 = "86ba961377d13379f34f8a48d130a337554012ec"
+version = "1.1"
+extra = ["canonical"]
+pseudolibrary_version = "0.2.1"
+extracted_on = "2026-03-10T08:37:30.653"
+sg_suffix = "ONCV_PBE-1.1"
+extension = "upf"
+lazy = true
+type = "nc"
+collection = "sg15"
+
+    [["sg15.nc.sr.pbe.v1_1.canonical.upf".download]]
+    sha256 = "00fe80bbcc39c1de572c8e8796c8c80be253d22d1adc9554860c7dd9a747fa61"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/sg15.nc.sr.pbe.v1_1.canonical.upf.tar.gz"
 
 ["dojo.nc.sr.pbe.v0_4_1.standard.upf"]
 functional = "pbe"
@@ -206,7 +246,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "416637d9c355b65d49cc972e9fb0e4bbb7772304"
 version = "0.4.1"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:52:43.722"
 extension = "upf"
 pseudodojo_handle = "nc-sr-04_pbe_standard_upf"
@@ -215,8 +255,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.sr.pbe.v0_4_1.standard.upf".download]]
-    sha256 = "49a098bc04128f98b6022aca76c74e85495c5b6f48d456a1d316d4f76cb92ae5"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.sr.pbe.v0_4_1.standard.upf.tar.gz"
+    sha256 = "8899808c6ef80f0fed28a9edc3f5319084ec0daa0481d2bd044cb211ded862d1"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.sr.pbe.v0_4_1.standard.upf.tar.gz"
 
 ["cp2k.nc.sr.pbe.v0_1.semicore.gth"]
 functional = "pbe"
@@ -226,7 +266,7 @@ program = "pseudo2.3"
 git-tree-sha1 = "f1bfd008ea139fa64ade84ec411dcd58686576e4"
 version = "0.1"
 extra = ["semicore"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T22:17:47.276"
 extension = "gth"
 cp2k_data_handle = "potentials/Goedecker/cp2k/pbe"
@@ -235,8 +275,28 @@ type = "nc"
 collection = "cp2k"
 
     [["cp2k.nc.sr.pbe.v0_1.semicore.gth".download]]
-    sha256 = "ac9e431b65b0bda34fa89aff1766ebb949f05ff82a1b68cdd3a2aadfbf99bbfc"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/cp2k.nc.sr.pbe.v0_1.semicore.gth.tar.gz"
+    sha256 = "b445e5d372770cbc159551db4f261883a0ebe7001d49254cb64bb773247e1b67"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/cp2k.nc.sr.pbe.v0_1.semicore.gth.tar.gz"
+
+["sg15.nc.sr.pbe.v1_2.canonical.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi"]
+relativistic = "sr"
+program = "oncvpsp2"
+git-tree-sha1 = "b220beb096cc19860a779bd8d082e5d1a5d42a0a"
+version = "1.2"
+extra = ["canonical"]
+pseudolibrary_version = "0.2.1"
+extracted_on = "2026-03-10T08:37:31.142"
+sg_suffix = "ONCV_PBE-1.2"
+extension = "upf"
+lazy = true
+type = "nc"
+collection = "sg15"
+
+    [["sg15.nc.sr.pbe.v1_2.canonical.upf".download]]
+    sha256 = "b39f377e4edeaf58a26f6f6cbcf4173966d69ac94b2c5e7db4fdccc7a007888e"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/sg15.nc.sr.pbe.v1_2.canonical.upf.tar.gz"
 
 ["cp2k.nc.sr.lda.v0_1.smallcore.gth"]
 functional = "lda"
@@ -246,7 +306,7 @@ program = "pseudo2.3"
 git-tree-sha1 = "d72a0d2f9a7b09082dbe455258b6a68bd4f1bade"
 version = "0.1"
 extra = ["smallcore"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T22:17:44.970"
 extension = "gth"
 cp2k_data_handle = "potentials/Goedecker/cp2k/pade"
@@ -255,8 +315,8 @@ type = "nc"
 collection = "cp2k"
 
     [["cp2k.nc.sr.lda.v0_1.smallcore.gth".download]]
-    sha256 = "32bc1bd6970333c0ead8072a160937b08bba1fc56e4e2fc0d6f00e531988f496"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/cp2k.nc.sr.lda.v0_1.smallcore.gth.tar.gz"
+    sha256 = "064d3f87dbcf9b15c3a37d47e367416b2860f4f75eeb946172a90e60e25da828"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/cp2k.nc.sr.lda.v0_1.smallcore.gth.tar.gz"
 
 ["dojo.nc.sr.pbe.v0_5.stringent.upf"]
 functional = "pbe"
@@ -266,7 +326,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "e079eecd9d70aa05ca1468016e69b41663f762ee"
 version = "0.5"
 extra = ["stringent"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:59:04.730"
 extension = "upf"
 pseudodojo_handle = "nc-sr-05_pbe_stringent_upf"
@@ -275,8 +335,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.sr.pbe.v0_5.stringent.upf".download]]
-    sha256 = "a1e59121a2f35b023c89316a1c444130e057dccd037f12bb387aeb63f711145c"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.sr.pbe.v0_5.stringent.upf.tar.gz"
+    sha256 = "dc6635d6162cd33807b0c03a908c805dbc3f41f9928b1796484034f19bd21f71"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.sr.pbe.v0_5.stringent.upf.tar.gz"
 
 ["dojo.nc.sr.pbesol.v0_4_1.standard.upf"]
 functional = "pbesol"
@@ -286,7 +346,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "1c51625594364f9a1ef25614db9d495e83680d00"
 version = "0.4.1"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:53:32.893"
 extension = "upf"
 pseudodojo_handle = "nc-sr-04_pbesol_standard_upf"
@@ -295,8 +355,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.sr.pbesol.v0_4_1.standard.upf".download]]
-    sha256 = "42fe1ab83861e5b406b0f304548cdf943cc563e1064d1e8105860fd7d3b79b9f"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.sr.pbesol.v0_4_1.standard.upf.tar.gz"
+    sha256 = "323c70b743bebeb196e280f2948fbe23843e2133d9d42d64809af44680cf25d5"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.sr.pbesol.v0_4_1.standard.upf.tar.gz"
 
 ["dojo.nc.fr.pbesol.v0_4.standard.upf"]
 functional = "pbesol"
@@ -306,7 +366,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "e32dd40e87836a3f85e08e19854b845f740967a3"
 version = "0.4"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:50:42.466"
 extension = "upf"
 pseudodojo_handle = "nc-fr-04_pbesol_standard_upf"
@@ -315,8 +375,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.fr.pbesol.v0_4.standard.upf".download]]
-    sha256 = "700c8d5478005adee9464ba7d1fc9ede6c73d8bac63283a5cf503d4e00b1cee4"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.fr.pbesol.v0_4.standard.upf.tar.gz"
+    sha256 = "a800ddc516186547cee91087e9c2b597fea5fbc8380486d5ed8e79f5ddd2d485"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.fr.pbesol.v0_4.standard.upf.tar.gz"
 
 ["dojo.nc.sr.pbe.v0_4_1.stringent.upf"]
 functional = "pbe"
@@ -326,7 +386,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "97021d525fa5e457c2e7196ed2453f0ef50e133f"
 version = "0.4.1"
 extra = ["stringent"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:53:11.804"
 extension = "upf"
 pseudodojo_handle = "nc-sr-04_pbe_stringent_upf"
@@ -335,8 +395,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.sr.pbe.v0_4_1.stringent.upf".download]]
-    sha256 = "cd2867464de96d59485f1beaba273b718adcd4a288cf4dd90a564967549114af"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.sr.pbe.v0_4_1.stringent.upf.tar.gz"
+    sha256 = "345ebb2d3cbd306b346bb5e3f12835576d97fd10312375640e702b0849352dd0"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.sr.pbe.v0_4_1.stringent.upf.tar.gz"
 
 ["dojo.nc.sr.pbe.v0_5_1-fix.standard.upf"]
 functional = "pbe"
@@ -346,7 +406,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "cb2bc28c381eb95ac3cf4fc2246d26f50a2f9ad8"
 version = "0.5.1-fix"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2026-02-23T20:08:25.000"
 extension = "upf"
 pseudodojo_handle = "nc-sr-05_pbe_standard_upf"
@@ -355,8 +415,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.sr.pbe.v0_5_1-fix.standard.upf".download]]
-    sha256 = "ba2389a87e67b8f00a86cf24121979d02bf393fffa4d0d9197d7d040f78468c4"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.sr.pbe.v0_5_1-fix.standard.upf.tar.gz"
+    sha256 = "37fb643a224296a1aed04fbc7bfafa9c82cc20fe1df33838c80e512e955c864e"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.sr.pbe.v0_5_1-fix.standard.upf.tar.gz"
 
 ["dojo.nc.sr.lda.v0_4_1.stringent.upf"]
 functional = "lda"
@@ -366,7 +426,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "bc4e3605135ba34c683ecda536aed8249a95fcd2"
 version = "0.4.1"
 extra = ["stringent"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:52:13.683"
 extension = "upf"
 pseudodojo_handle = "nc-sr-04_pw_stringent_upf"
@@ -375,8 +435,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.sr.lda.v0_4_1.stringent.upf".download]]
-    sha256 = "93ac0b94c9b58705e9bf525c284e4135a183563be01302fc5ebb0055212ae68f"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.sr.lda.v0_4_1.stringent.upf.tar.gz"
+    sha256 = "372f47416d9b820c3639d40278a242a32eab2a9d6fc003327a7fbc10b368730b"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.sr.lda.v0_4_1.stringent.upf.tar.gz"
 
 ["dojo.nc.fr.pbe.v0_4.standard.upf"]
 functional = "pbe"
@@ -386,7 +446,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "1d5d03f8ea54a349b5a2cd72792a70d480f999b6"
 version = "0.4"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:49:29.219"
 extension = "upf"
 pseudodojo_handle = "nc-fr-04_pbe_standard_upf"
@@ -395,8 +455,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.fr.pbe.v0_4.standard.upf".download]]
-    sha256 = "34f7e583e5f4a39abb3a105d336db492bb6609a707af490c0a9656f3af7890f9"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.fr.pbe.v0_4.standard.upf.tar.gz"
+    sha256 = "10daae00ec2d15638558d931d1e9bcdaa8580eefff19707d3f15ad7815784442"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.fr.pbe.v0_4.standard.upf.tar.gz"
 
 ["dojo.paw.sr.lda.v1_1.standard.xml"]
 functional = "lda"
@@ -406,7 +466,7 @@ program = "jth"
 git-tree-sha1 = "be950adb6bda0b406532c37b92e13237c4f10d06"
 version = "1.1"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T20:03:22"
 extension = "xml"
 pseudodojo_handle = "paw-sr-11_lda_standard_xml"
@@ -415,8 +475,8 @@ type = "paw"
 collection = "dojo"
 
     [["dojo.paw.sr.lda.v1_1.standard.xml".download]]
-    sha256 = "25a623c769b9158b23ad4020ca3cb626b4b525771d442e275707052ae3bcb278"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.paw.sr.lda.v1_1.standard.xml.tar.gz"
+    sha256 = "1ea89bdf9b3e9115561fdbafbbf82542940eca072bbae5d5da2db0979d555903"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.paw.sr.lda.v1_1.standard.xml.tar.gz"
 
 ["dojo.nc.fr.pbe.v0_4.stringent.upf"]
 functional = "pbe"
@@ -426,7 +486,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "a4da3af737fb54961807b9a517839a3aa863c856"
 version = "0.4"
 extra = ["stringent"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:50:05.128"
 extension = "upf"
 pseudodojo_handle = "nc-fr-04_pbe_stringent_upf"
@@ -435,8 +495,8 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.fr.pbe.v0_4.stringent.upf".download]]
-    sha256 = "08fe206deecae7fcf9e03e7d55fcea1eebc3a18ebb552a83a6ea1a36b1eedda3"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.fr.pbe.v0_4.stringent.upf.tar.gz"
+    sha256 = "e37e6aa18154f99220c6530c26b0efafc89fc0ffefa2bb7bcb2505dfce513a06"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.fr.pbe.v0_4.stringent.upf.tar.gz"
 
 ["dojo.paw.sr.pbe.v1_1.standard.xml"]
 functional = "pbe"
@@ -446,7 +506,7 @@ program = "jth"
 git-tree-sha1 = "96389b91a21d375a7bc6598c8aad216e06b4ce65"
 version = "1.1"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T20:19:04.343"
 extension = "xml"
 pseudodojo_handle = "paw-sr-11_pbe_standard_xml"
@@ -455,8 +515,8 @@ type = "paw"
 collection = "dojo"
 
     [["dojo.paw.sr.pbe.v1_1.standard.xml".download]]
-    sha256 = "0efd22af7434d67e2ab4a1e50c4053bd3ae42e54bbd9854510f01447b826efc7"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.paw.sr.pbe.v1_1.standard.xml.tar.gz"
+    sha256 = "c62e0eb78dbc239e316f028e3452a59cc8595fb652446d2f3e52d0b1a0e32ccc"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.paw.sr.pbe.v1_1.standard.xml.tar.gz"
 
 ["dojo.paw.sr.pbe.v1_1.stringent.xml"]
 functional = "pbe"
@@ -466,7 +526,7 @@ program = "jth"
 git-tree-sha1 = "a59e725906c77151af0634031a29f5f13744bacc"
 version = "1.1"
 extra = ["stringent"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T20:28:50.666"
 extension = "xml"
 pseudodojo_handle = "paw-sr-11_pbe_stringent_xml"
@@ -475,8 +535,28 @@ type = "paw"
 collection = "dojo"
 
     [["dojo.paw.sr.pbe.v1_1.stringent.xml".download]]
-    sha256 = "ee331965f46432050151967377d5cefa000be2a0d47bbfbdd2fdd51169435784"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.paw.sr.pbe.v1_1.stringent.xml.tar.gz"
+    sha256 = "00cb27159a1c6882db553495afab48f5782fbff6010944bdbaa860730e951066"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.paw.sr.pbe.v1_1.stringent.xml.tar.gz"
+
+["sg15.nc.sr.pbe.v1_0.canonical.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi"]
+relativistic = "sr"
+program = "oncvpsp2"
+git-tree-sha1 = "63e37b3ed9ff612796735d3ad0f85aa07ae7a635"
+version = "1.0"
+extra = ["canonical"]
+pseudolibrary_version = "0.2.1"
+extracted_on = "2026-03-10T08:37:30.035"
+sg_suffix = "ONCV_PBE-1.0"
+extension = "upf"
+lazy = true
+type = "nc"
+collection = "sg15"
+
+    [["sg15.nc.sr.pbe.v1_0.canonical.upf".download]]
+    sha256 = "5e71c91ba0d5658ef08722f0093419a171fbcae62d6719ab0424933372d096c2"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/sg15.nc.sr.pbe.v1_0.canonical.upf.tar.gz"
 
 ["dojo.nc.sr.lda.v0_4_1.standard.upf"]
 functional = "lda"
@@ -486,7 +566,7 @@ program = "oncvpsp3"
 git-tree-sha1 = "11b56401937bd46168a84a333c623c0de8ae69e9"
 version = "0.4.1"
 extra = ["standard"]
-pseudolibrary_version = "0.2.0"
+pseudolibrary_version = "0.2.1"
 extracted_on = "2024-12-27T19:51:43.744"
 extension = "upf"
 pseudodojo_handle = "nc-sr-04_pw_standard_upf"
@@ -495,5 +575,5 @@ type = "nc"
 collection = "dojo"
 
     [["dojo.nc.sr.lda.v0_4_1.standard.upf".download]]
-    sha256 = "5e68fcc87f3547632c42391b2bd407b47063d675b65fcb9ca70497019ffe7340"
-    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.0/dojo.nc.sr.lda.v0_4_1.standard.upf.tar.gz"
+    sha256 = "af15a2e2b21140b16bfe79c45a3ea0c1372acadb48f7b0391077df7c78efff7b"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.sr.lda.v0_4_1.standard.upf.tar.gz"
