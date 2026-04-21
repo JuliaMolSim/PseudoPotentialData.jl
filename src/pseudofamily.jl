@@ -3,8 +3,8 @@ struct PseudoFamily <: AbstractDict{Symbol,String}
     #
     # metadata
     collection::String        # Pseudo collection this family is from (e.g. "dojo")
-    type::String              # Pseudofamily type ("nc", "us", "paw")
-    relativistic::String      # Kind of relativistic effects ("fr", "sr")
+    type::String              # Pseudofamily type ("nc", "us", "paw", "mixed")
+    relativistic::String      # Kind of relativistic effects ("nr", "sr", "fr")
     functional::String        # DFT functional keyword
     version::VersionNumber    # Version of the pseudofamily
     program::String           # Program used to generate the pseudos

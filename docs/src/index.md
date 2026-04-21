@@ -93,8 +93,8 @@ The naming convention is as that each pseudo family name consists
 of a list of fields, which are concatenated using a `.` (dot).
 These are:
 1. `collection`: An identifier for the pseudo collection (like `dojo` for the [PseudoDojo](http://www.pseudo-dojo.org/) family of potentials.
-2. `type`: The type of pseudopotential (`nc`: norm-conserving, `us`: ultrasoft, `paw`: projected  augmented wave)
-3. `relativistic`: Details on the level of relativistic effects employed when generating the pseudo (`fr`: Full relativistic, `sr`: Scalar relativistic, `nr`: No relativistic)
+2. `type`: The type of pseudopotential (`nc`: norm-conserving, `us`: ultrasoft, `paw`: projected  augmented wave, `mixed`: A library with a mixture of pseudopotential types across the elements)
+3. `relativistic`: Details on the level of relativistic effects employed when generating the pseudo (`fr`: Full relativistic, `sr`: Scalar relativistic, `nr`: No relativistic corrections)
 4. `functional`: The functional for which the pseudopotential was prepared
 5. `version`: The version of the pseudopotential construction (with version points replaced by underscores)
 6. `extra`: Some additional comments specifying the pseudopotential.
