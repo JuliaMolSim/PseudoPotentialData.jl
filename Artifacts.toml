@@ -138,6 +138,45 @@ collection = "dojo"
     sha256 = "e6a25b046922adc78da9c972f22f6468b3d86c5d8dfdade7c0abeb995ee0bd66"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.paw.sr.pbesol.v1_1.standard.xml.tar.gz"
 
+["spms.nc.sr.pbe.v1_0.canonical.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi"]
+relativistic = "sr"
+program = "oncvpsp4"
+git-tree-sha1 = "956e9a921857916da7aeb0bc73a312a442d1b610"
+version = "1.0"
+extra = ["canonical"]
+pseudolibrary_version = "0.2.2"
+extracted_on = "2026-04-16T12:30:44.768"
+extension = "upf"
+lazy = true
+type = "nc"
+collection = "spms"
+
+    [["spms.nc.sr.pbe.v1_0.canonical.upf".download]]
+    sha256 = "30a669adbbd7fcfa50b7b30d7bb8b6a9ec9646cee03c68e3a815dacaeb5124b3"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.2/spms.nc.sr.pbe.v1_0.canonical.upf.tar.gz"
+
+["sssp.mixed.sr.pbesol.v1_3_0.efficiency.upf"]
+functional = "pbesol"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Fr", "Ra", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
+relativistic = "sr"
+program = "mixed"
+git-tree-sha1 = "5c7c158b03bb897b0dd9d9151f83b997b4395fc7"
+version = "1.3.0"
+extra = ["efficiency"]
+pseudolibrary_version = "0.2.2"
+extracted_on = "2026-04-20T14:17:37.580"
+extension = "upf"
+sssp_handle = "pbesol_efficiency_1-3-0"
+lazy = true
+type = "mixed"
+collection = "sssp"
+
+    [["sssp.mixed.sr.pbesol.v1_3_0.efficiency.upf".download]]
+    sha256 = "e41eedfee823c5c4073fa70ff9beacb2431614e7936cad18991b280cc64ec182"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.2/sssp.mixed.sr.pbesol.v1_3_0.efficiency.upf.tar.gz"
+
 ["cp2k.nc.sr.lda.v0_1.largecore.gth"]
 functional = "lda"
 elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
@@ -177,6 +216,26 @@ collection = "dojo"
     [["dojo.paw.sr.lda.v1_1.stringent.xml".download]]
     sha256 = "366c02c9f12bb70f2a8a31d1cd748d7a3fd7ec5a2fb816c3db4ae095a6bd3248"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.paw.sr.lda.v1_1.stringent.xml.tar.gz"
+
+["sssp.mixed.sr.pbe.v1_3_0.efficiency.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Fr", "Ra", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
+relativistic = "sr"
+program = "mixed"
+git-tree-sha1 = "f1eaa385348dcd0dc42719fc0bbf277adfe915e5"
+version = "1.3.0"
+extra = ["efficiency"]
+pseudolibrary_version = "0.2.2"
+extracted_on = "2026-04-20T14:17:28.899"
+extension = "upf"
+sssp_handle = "pbe_efficiency_1-3-0"
+lazy = true
+type = "mixed"
+collection = "sssp"
+
+    [["sssp.mixed.sr.pbe.v1_3_0.efficiency.upf".download]]
+    sha256 = "45d671b0584b28823d1f5475227651b71ccfb6cf374287807f1139de8e374270"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.2/sssp.mixed.sr.pbe.v1_3_0.efficiency.upf.tar.gz"
 
 ["dojo.nc.sr.pbe.v0_5.standard.upf"]
 functional = "pbe"
@@ -458,6 +517,26 @@ collection = "dojo"
     sha256 = "10daae00ec2d15638558d931d1e9bcdaa8580eefff19707d3f15ad7815784442"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.nc.fr.pbe.v0_4.standard.upf.tar.gz"
 
+["sssp.mixed.sr.pbesol.v1_3_0.precision.upf"]
+functional = "pbesol"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Fr", "Ra", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
+relativistic = "sr"
+program = "mixed"
+git-tree-sha1 = "1ae9790c681bd409542e8092a3984f3e0992ce74"
+version = "1.3.0"
+extra = ["precision"]
+pseudolibrary_version = "0.2.2"
+extracted_on = "2026-04-20T14:17:42.295"
+extension = "upf"
+sssp_handle = "pbesol_precision_1-3-0"
+lazy = true
+type = "mixed"
+collection = "sssp"
+
+    [["sssp.mixed.sr.pbesol.v1_3_0.precision.upf".download]]
+    sha256 = "51df706cd46c03257185d10d9d19607f8c295e3b12b20468a57bcbcf752ae899"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.2/sssp.mixed.sr.pbesol.v1_3_0.precision.upf.tar.gz"
+
 ["dojo.paw.sr.lda.v1_1.standard.xml"]
 functional = "lda"
 elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"]
@@ -477,6 +556,26 @@ collection = "dojo"
     [["dojo.paw.sr.lda.v1_1.standard.xml".download]]
     sha256 = "1ea89bdf9b3e9115561fdbafbbf82542940eca072bbae5d5da2db0979d555903"
     url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.1/dojo.paw.sr.lda.v1_1.standard.xml.tar.gz"
+
+["sssp.mixed.sr.pbe.v1_3_0.precision.upf"]
+functional = "pbe"
+elements = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Fr", "Ra", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"]
+relativistic = "sr"
+program = "mixed"
+git-tree-sha1 = "9c1f3e4d3e55c61f581b51098a2022de8f4e31fd"
+version = "1.3.0"
+extra = ["precision"]
+pseudolibrary_version = "0.2.2"
+extracted_on = "2026-04-20T14:17:33.201"
+extension = "upf"
+sssp_handle = "pbe_precision_1-3-0"
+lazy = true
+type = "mixed"
+collection = "sssp"
+
+    [["sssp.mixed.sr.pbe.v1_3_0.precision.upf".download]]
+    sha256 = "7614ba8b8ec8ead42b1e757f956d2e1d4aad3a71df439bfeeafc51f95374b401"
+    url = "https://github.com/JuliaMolSim/PseudoLibrary/releases/download/v0.2.2/sssp.mixed.sr.pbe.v1_3_0.precision.upf.tar.gz"
 
 ["dojo.nc.fr.pbe.v0_4.stringent.upf"]
 functional = "pbe"
